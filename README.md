@@ -5,7 +5,7 @@ You learn to walk before you learn to run the marathon.
 
 ### Project 1 - Button Counter
 
-<img src="./assets/projectcounter.gif" alt="projectcounter" width="200"/>
+<a href="#"><img src="./assets/projectcounter.gif" alt="projectcounter" width="500"/></a>
 
 https://www.youtube.com/watch?v=Drp3ufpfD_Y
 
