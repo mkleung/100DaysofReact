@@ -5,6 +5,9 @@ You learn to walk before you learn to run the marathon.
 
 ### Project 1 - Button Counter
 
+![ProjectCounter](assets/projectCounter.gif)
+
+
 https://www.youtube.com/watch?v=Drp3ufpfD_Y
 
 What I've learned from this day:
