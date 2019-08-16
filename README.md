@@ -9,7 +9,9 @@ https://www.youtube.com/watch?v=Drp3ufpfD_Y
 
 What I've learned from this day:
 - create-react-app
-- 
+- Class Components
+- React Constructor
+- SetState
 
 ### Project 2 - Timer
 
