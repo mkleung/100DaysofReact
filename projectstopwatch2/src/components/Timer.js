@@ -7,14 +7,15 @@ class Timer extends Component {
     constructor(props) {
         super(props)
 
-        this.state = {on: false, time: 0};
+        this.state = {on: false, timeMin: 0, timeSec: 0, timeMil: 0};
         this.timerId = 0;
     }
     render () {
         const title = this.state.on ? "Pause" : "Start";
+        const prefix = this.state.timeMil < 10 ? "0": "";
         return (
             <div>
-                <h1>Number:  {this.state.time}</h1>
+                <h1>Time:  {this.state.timeMin}m:{this.state.timeSec}s:{prefix}{this.state.timeMil}ms</h1>
                 <hr />
                 <Button 
                     title={title}
@@ -24,38 +25,46 @@ class Timer extends Component {
         )
     }
 
-    componentWillUnmount() {
-        this.clearTimer()
-    }
 
     triggerTimer() {
         console.log("start");
-        this.state.on ? this.pauseTimer() :this.startTimer();
-    }
-
-    updateTime() {
-        this.setState({time: this.state.time += 1});
+        this.state.on ? this.pauseTimer() : this.startTimer();
     }
 
     startTimer() {
         this.setState({on: true});
         this.timerId = setInterval(()=>{
-            this.updateTime();
-        }, 1000);
+            console.log(this.state.timeMil);
+            if (this.state.timeSec === 5) {
+                this.setState({timeMin: this.state.timeMin += 1, timeSec: this.state.timeSec = 0, timeMil: this.state.timeMil = 0});
+            }
+            else if (this.state.timeMil === 10) {
+                this.setState({timeSec: this.state.timeSec += 1, timeMil: this.state.timeMil = 0 });
+            }
+
+            else {
+                this.setState({timeMil: this.state.timeMil += 1});
+            }
+            
+        }, 100);
     }
 
     pauseTimer() {
         this.setState({on: false});
-        this.clearTimer()
+         this.clearTimer()
     }
+    
 
-    formatTime() {
+    componentWillUnmount() {
+        this.clearTimer()
     }
 
     clearTimer() {
         console.log("clear")
         clearInterval(this.timerId);
     }
+
+
 
 }
 
