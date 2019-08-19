@@ -1,0 +1,27 @@
+.jumbotron h2 {
+    color:red;
+}
+
+.calendar td {
+    width:  200px;
+    border: 1px solid black;
+    text-align: center;
+    height: 50px;
+}
+
+.calendar .week-day {
+    background: #3498db;
+    color: #FFF;
+}
+
+.calendar .current {
+    background: #2ecc71;
+    color: #FFF;
+}
+
+
+.emptySlot {
+    width: 100px;
+    height: 50px;
+    
+}

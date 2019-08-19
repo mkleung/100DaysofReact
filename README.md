@@ -46,7 +46,66 @@ https://www.youtube.com/watch?v=NAx76xx40jM&t=304s
 
 Challenge: Create a stopwatch
 
-### Project 3 - Pomodoro
+
+### Project 3 - Calendar Date Picker Part 1
+
+https://www.youtube.com/watch?v=9U0uTNfY1UA
+
+
+What I've learned:
+- Install moment library to do all the date calculations
+
+
+
+### Project 3 - Calendar Date Picker Part 2
+
+https://www.youtube.com/watch?v=5vYJO0zRfbQ
+
+
+What I've learned:
+- Props
+
+
+### Project 4 - Tip Calculator
+
+
+
+### Project 5 - To Do List
+
+
+### Project 6 - Weather app
+
+https://www.youtube.com/watch?v=204C9yNeOYI&list=PL4x-yNEsjQpZJvtrhr6Lwn0W3ztCBDCYc&index=1
+
+OR
+
+https://www.youtube.com/watch?v=IxuqmfO6p28
+
+
+### Project 7- Quiz
+
+https://www.youtube.com/watch?v=aq-fCtg_gG4
+
+
+
+### Project 8 - Rock, Paper, Scissors
+
+
+
+### Project 9 - Instagram Clone Part 1
+
+
+### Project 10 Instagram Clone Part 2
+
+
+
+
+### Project 4 - Modal + Login/Password
+
+
+
+
+### Project 6 - Pomodoro Timer
 
 ### Project - Form Input
 
@@ -54,20 +113,12 @@ Challenge: Create a stopwatch
 
 ### Project - Drag and drop
 
-
-### Project 3 - Date/Time Picker
-
-### Project 4 - Tip Calculator
-
 ### Project 5 - Analog Clock
 
 ### Project 6 - Quote Generator
 
 ### Project 7 - To do list
 
-### Project 8- Quiz
-
-### Project 9 - Rock, Paper, Scissors
 
 ### Project 10 - Recipe App
 
