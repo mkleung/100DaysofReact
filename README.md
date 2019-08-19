@@ -28,9 +28,10 @@ Challenge:Binary Counter
 
 ### Project 2 - stopwatch
 
+<a href="#"><img src="./assets/day2.gif" alt="projectstopwatch" width="500"/></a>
 
-Tutorial 1
-https://www.youtube.com/watch?v=NAx76xx40jM
+Tutorial
+https://www.youtube.com/watch?v=NAx76xx40jM&t=304s
 
 What I've learned:
 - Props
@@ -38,13 +39,6 @@ What I've learned:
 - prevState
 - setInterval
 - format duration package
-
-
-Tutorial 2 
-https://www.youtube.com/watch?v=NAx76xx40jM&t=304s
-
-
-Challenge: Create a stopwatch
 
 
 ### Project 3 - Calendar Date Picker Part 1

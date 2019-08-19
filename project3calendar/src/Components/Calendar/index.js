@@ -73,7 +73,7 @@ export default class Calendar extends React.Component {
         let fifthRow = [];
 
         // show calendar days
-        let days = [];
+
         for (let i = 1;i <= this.daysInMonth(); i++) {
             let className = (i === this.currentDate() ? "day current" : "day");
             
@@ -83,6 +83,7 @@ export default class Calendar extends React.Component {
                         <span>{i}</span>
                     </td>
                 )
+         
             }
             else if ((i > 7) && (i < 15)) {
                 secondRow.push(
@@ -114,7 +115,6 @@ export default class Calendar extends React.Component {
             }
             
         }
-
    
         return (
             <div>
@@ -132,6 +132,7 @@ export default class Calendar extends React.Component {
                             <tr>{thirdRow}</tr>
                             <tr>{fourthRow}</tr>
                             <tr>{fifthRow}</tr>
+                          
                         </tbody>
                     </table>
                 </div>
