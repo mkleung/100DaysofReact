@@ -1,23 +1,19 @@
 import React, { Component } from "react";
 import "./calendar.css";
 
-const days= ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+const days = ["Sun", "Mon", "Tues", "Wed", "Thu", "Fri", "Sat"];
 
 class Labels extends Component {
   render() {
-    
-    
     const weekdayLabels = days.map((label, index) => {
-        return (
-            <div className="weeklyLabel" key={index}>{label}</div>
-        )
+      return (
+        <div className="weeklyLabel" key={index}>
+          {label}
+        </div>
+      );
     });
 
-    return (
-        <div className="weekdayLabels">
-           {weekdayLabels}
-        </div>
-    );
+    return <div className="weekdayLabels">{weekdayLabels}</div>;
   }
 }
 

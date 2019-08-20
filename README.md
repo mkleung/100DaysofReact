@@ -33,28 +33,29 @@ What I've learned:
 
 ### Project 3 - Calendar Date Picker Part 1
 
-https://www.youtube.com/watch?v=9U0uTNfY1UA
+Tutorial: 
+https://www.youtube.com/watch?v=jjMmcQ-xV00&list=PL3jWqOE6WBddjqDLa56SeG2OA0qOB_Rco
+
+Demo
+https://193rm.codesandbox.io/
 
 
-What I've learned:
-- Install moment library to do all the date calculations
 
 
-
-### Project 3 - Calendar Date Picker Part 2
-
-https://www.youtube.com/watch?v=5vYJO0zRfbQ
-
-
-What I've learned:
-- Props
-
-
-### Project 4 - Tip Calculator
+### Project 4 - Canadian Tax Calculator
 
 
 
 ### Project 5 - To Do List
+
+
+### Project 6 - Dictionary
+
+
+### Project 7 - Tic Tac Toe
+
+
+### Project 8 - Markdown Previewer
 
 
 ### Project 6 - Weather app
@@ -82,6 +83,14 @@ https://www.youtube.com/watch?v=aq-fCtg_gG4
 ### Project 10 Instagram Clone Part 2
 
 
+### HangmanGame
+
+
+### Login / Signup
+
+https://www.youtube.com/watch?v=56E8b9prPTs
+
+### Favorite things in city map
 
 
 ### Project 4 - Modal + Login/Password
