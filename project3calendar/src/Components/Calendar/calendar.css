@@ -1,27 +1,29 @@
-.jumbotron h2 {
-    color:red;
-}
 
-.calendar td {
-    width:  200px;
-    border: 1px solid black;
-    text-align: center;
-    height: 50px;
-}
-
-.calendar .week-day {
-    background: #3498db;
-    color: #FFF;
-}
-
-.calendar .current {
-    background: #2ecc71;
-    color: #FFF;
-}
-
-
-.emptySlot {
+.weekdayLabels .weeklyLabel {
     width: 100px;
     height: 50px;
-    
+    padding: 12px;
+    display: inline-block;
+    text-align: center;
+    background: blue;
+    color: #FFF;
+}
+
+
+.weekdays div {
+ 
+    display: inline-block;
+    text-align: center;
+}
+
+.date {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    padding: 12px;
+}
+
+.current {
+    background: blue;
+    color: #FFF;
 }

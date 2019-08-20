@@ -1,19 +1,9 @@
 100 Days of React Challenge
 ===========================
 
-You learn to walk before you learn to run the marathon.
-
-
-### Installation
-
-> npm i -g create-react-app
-
-> create-react-app projectname
-
-
 ### Project 1 - Button Counter
 
-<a href="#"><img src="./assets/projectcounter.gif" alt="projectcounter" width="500"/></a>
+![Project Counter](./assets/projectcounter.gif)
 
 Tutorial
 https://www.youtube.com/watch?v=Drp3ufpfD_Y
@@ -28,7 +18,7 @@ Challenge:Binary Counter
 
 ### Project 2 - stopwatch
 
-<a href="#"><img src="./assets/day2.gif" alt="projectstopwatch" width="500"/></a>
+![Project Stopwatch](./assets/day2.gif)
 
 Tutorial
 https://www.youtube.com/watch?v=NAx76xx40jM&t=304s

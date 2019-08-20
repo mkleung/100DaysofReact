@@ -1,21 +1,19 @@
 import React from 'react';
 import './App.css';
-import Calendar from './Components/Calendar';
-
-
-const style = {
-  position: "relative",
-  margin: "50px auto"
-}
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Calendar from './components/Calendar'
 
 function App() {
   return (
     <div>
-        <div className="jumbotron">
-            <h2>Calendar</h2>
-        </div>
-      <Calendar style={style} width="302px" />
+      <div className="jumbotron">
+        <h1 className="container">100 Days of React - Project 3 Calender</h1>
+      </div>
+      <div className="container">
+        <Calendar />
+      </div>
     </div>
+
   );
 }
 
