@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import Button from "./Button";
-
-// https://codepen.io/peterbe/pen/LNxmRp?editors=1010
+import "./timer.scss";
+import Display from './Display'
+import Play from './Play'
+import Delete from './Delete'
 
 class Timer extends Component {
   constructor(props) {
@@ -10,67 +11,58 @@ class Timer extends Component {
     this.state = { on: false, timeMin: 0, timeSec: 0, timeMil: 0 };
     this.timerId = 0;
   }
-  render() {
-    const title = this.state.on ? "Pause" : "Start";
-    const prefix = this.state.timeMil < 10 ? "0" : "";
-
-    return (
-      <div>
-        <h1>
-          Time: {this.state.timeMin}m:{this.state.timeSec}s:{prefix}
-          {this.state.timeMil}ms
-        </h1>
-        <hr />
-        <Button title={title} handleTrigger={this.triggerTimer.bind(this)} />
-        <Button title="Reset" handleTrigger={this.resetTimer.bind(this)} />
-      </div>
-    );
-  }
-
-  triggerTimer() {
+  triggerTimer = () => {
     console.log("start");
     this.state.on ? this.pauseTimer() : this.startTimer();
   }
 
-  startTimer() {
+  startTimer = () => {
+    let { timeSec, timeMil } = this.state;
     this.setState({ on: true });
     this.timerId = setInterval(() => {
-      console.log(this.state.timeMil);
-      if (this.state.timeSec === 60) {
+      if (this.state.timeMil === 99) {
         this.setState({
-          timeMin: (this.state.timeMin += 1),
-          timeSec: (this.state.timeSec = 0),
-          timeMil: (this.state.timeMil = 0)
-        });
-      } else if (this.state.timeMil === 10) {
-        this.setState({
-          timeSec: (this.state.timeSec += 1),
-          timeMil: (this.state.timeMil = 0)
+          timeSec: (timeSec += 1),
+          timeMil: (timeMil = 0)
         });
       } else {
-        this.setState({ timeMil: (this.state.timeMil += 1) });
+        this.setState({ timeMil: (timeMil += 1) });
       }
-    }, 100);
+    }, 10);
   }
 
-  pauseTimer() {
+  pauseTimer = () => {
     this.setState({ on: false });
     this.clearTimer();
   }
 
-  resetTimer() {
+  resetTimer = () => {
     this.clearTimer();
-    this.setState({ on: false, timeMin: 0, timeSec: 0, timeMil: 0 });
+    this.setState({ on: false, timeSec: 0, timeMil: 0 });
   }
 
-  componentWillUnmount() {
+  componentWillUnmount = () => {
     this.clearTimer();
   }
 
-  clearTimer() {
-    console.log("clear");
+  clearTimer = () => {
     clearInterval(this.timerId);
   }
+
+  render() {
+    const on = this.state.on;
+    const sec = this.state.timeSec;
+    const mil = this.state.timeMil;
+    return (
+      <div>
+        <Display sec={sec} mil={mil} />
+        <Play on={on} triggerTimer={this.triggerTimer} />
+        <Delete resetTimer={this.resetTimer} />
+      </div>
+    );
+  }
+
+
 }
 
 export default Timer;

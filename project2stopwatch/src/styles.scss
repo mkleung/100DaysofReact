@@ -1,0 +1,17 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto",
+    sans-serif !important;
+}
+
+
+.container {
+  height: 400px;
+  width: 300px;
+  background: linear-gradient(to bottom, #00b09b 0%, #96c93d 100%);
+  position: relative;
+}

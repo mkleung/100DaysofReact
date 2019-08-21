@@ -3,10 +3,7 @@
 
 ### Project 1 - Button Counter
 
-![Project Counter](./assets/projectcounter.gif)
-
-Tutorial
-https://www.youtube.com/watch?v=Drp3ufpfD_Y
+[Demo](https://t2f9h.codesandbox.io/)
 
 What I've learned:
 - create-react-app
@@ -14,14 +11,15 @@ What I've learned:
 - React Constructor
 - SetState
 
-Challenge:Binary Counter
+Sources
+https://www.youtube.com/watch?v=Drp3ufpfD_Y
+
+---
 
 ### Project 2 - stopwatch
 
-![Project Stopwatch](./assets/day2.gif)
 
-Tutorial
-https://www.youtube.com/watch?v=NAx76xx40jM&t=304s
+[Demo](https://6fr6p.codesandbox.io/)
 
 What I've learned:
 - Props
@@ -30,17 +28,25 @@ What I've learned:
 - setInterval
 - format duration package
 
+Sources
+https://www.youtube.com/watch?v=NAx76xx40jM&t=304s
 
-### Project 3 - Calendar Date Picker Part 1
+---
 
-Tutorial: 
+### Project 3 - Calendar
+
+
+[Demo](https://193rm.codesandbox.io/)
+
+Sources:
 https://www.youtube.com/watch?v=jjMmcQ-xV00&list=PL3jWqOE6WBddjqDLa56SeG2OA0qOB_Rco
 
-Demo
-https://193rm.codesandbox.io/
 
-### Project - React
+### Project 4 - Calculator
 
+
+
+Sources:
 https://www.youtube.com/watch?v=ZtU7Mhf9vN8&t=409s
 
 

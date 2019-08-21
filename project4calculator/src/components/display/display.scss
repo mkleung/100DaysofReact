@@ -1,0 +1,14 @@
+@import "../variables.scss";
+
+.calculator-display {
+    color: $dark-blue;
+    background: $white;
+    line-height: 120px;
+    font-size: 6em;
+    flex: 1;
+    padding-right: 10px;
+    border-radius: 15px 15px 0 0;
+    text-align: right;
+    // direction: rtl;
+    overflow: hidden;
+}

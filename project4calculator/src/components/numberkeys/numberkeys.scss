@@ -1,0 +1,14 @@
+@import "../variables.scss";
+
+.number-keys {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    border-radius: 0 0 0 15px;
+    background: $dark-blue;
+
+    .key-clear {
+        background: $orange;
+    }
+}

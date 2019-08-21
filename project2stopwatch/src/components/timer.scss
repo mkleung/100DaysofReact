@@ -1,0 +1,58 @@
+.display {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .time {
+    color: #FFF;
+
+  }
+}
+
+.playBtn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #eb4d4b;
+  color: #FFF;
+  border: none;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  box-shadow: 0 5px 10px 0 #eb4d4b;
+  transform: translate(-50%, -90%);
+  transition: .5s ease;
+
+  &:hover {
+    cursor: pointer;
+    transform: translate(-50%, -95%);
+    box-shadow: 0 5px 25px 0 #eb4d4b;
+    transition: .5s ease;
+  }
+
+  &:active {
+    transform: translate(-50%, -90%);
+    transition: .5s ease;
+  }
+}
+
+.deleteBtn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: transparent;
+  position: absolute;
+  bottom: 30px;
+  border: none;
+  font-size: 1.2rem;
+  left: 5%;
+  color: #FFF;
+}

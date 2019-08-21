@@ -1,0 +1,12 @@
+@import "../variables.scss";
+
+.function-keys {
+
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to left, #01004D 0%, #0400b3 50%);
+
+    .key-clear {
+        background: $orange;
+    }
+}

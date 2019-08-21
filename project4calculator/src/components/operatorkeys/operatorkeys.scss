@@ -1,0 +1,23 @@
+@import "../variables.scss";
+
+.operator-keys {
+    background: linear-gradient(to bottom,
+            $dark-blue 0px,
+            $dark-blue 80px,
+            $navy-blue 80px,
+            $dark-blue 75%,
+            $dark-blue 100%);
+
+    width: 80px;
+    float: right;
+    border-radius: 0 0 15px 0;
+
+    display: flex;
+    flex-direction: column;
+
+    .key-equal {
+        background: $orange;
+        border-radius: 0 0 15px 0;
+    }
+
+}
