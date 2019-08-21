@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font: 100 14px 'Roboto';
+  font-family: 'Roboto', sans-serif;
+}
+
+#wrapper {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#app {
+  width: 320px;
+  height: 520px;
+  position: relative;
+}
