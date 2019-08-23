@@ -3,7 +3,7 @@
 
 ### Project 1 - Button Counter
 
-[Demo](https://t2f9h.codesandbox.io/)
+[Demo](https://t2f9h.codesandbox.io/){:target="_blank"}
 
 What I've learned:
 - create-react-app
@@ -19,7 +19,7 @@ https://www.youtube.com/watch?v=Drp3ufpfD_Y
 ### Project 2 - stopwatch
 
 
-[Demo](https://6fr6p.codesandbox.io/)
+[Demo](https://6fr6p.codesandbox.io/){:target="_blank"}
 
 What I've learned:
 - Props
@@ -36,7 +36,7 @@ https://www.youtube.com/watch?v=NAx76xx40jM&t=304s
 ### Project 3 - Calendar
 
 
-[Demo](https://193rm.codesandbox.io/)
+[Demo](https://193rm.codesandbox.io/){:target="_blank"}
 
 Sources:
 https://www.youtube.com/watch?v=jjMmcQ-xV00&list=PL3jWqOE6WBddjqDLa56SeG2OA0qOB_Rco
@@ -44,6 +44,8 @@ https://www.youtube.com/watch?v=jjMmcQ-xV00&list=PL3jWqOE6WBddjqDLa56SeG2OA0qOB_
 
 ### Project 4 - Calculator
 
+
+[Demo](https://mzztr.csb.app/){:target="_blank"}
 
 
 Sources:
