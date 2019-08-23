@@ -1,0 +1,122 @@
+$red: #FF4A55;
+
+.counter {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+
+  height: 100px;
+  width: 100px;
+
+  .count {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #FFF;
+    font-size: 3em;
+    font-weight: bold;
+    background: $red;
+    height: 100px;
+    width: 100px;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 25px 0 lighten($red, 20%);
+    transition: .5s ease;
+  }
+  .btn {
+    position: absolute;
+    height: 25px;
+    width: 45px;
+    border: none;
+    background: transparent;
+    transition: .5s ease;
+  }
+
+  .btnTop {
+    top: -5px;
+    left: 50%;
+    transform:translate(-50%, -40px);
+    &:hover {
+      cursor: pointer;
+      &:before, &:after {
+        background: $red;
+        transition: .5s ease;
+      }
+    }
+    &:active ~ .count {
+      top: -5px;
+      transition: .5s ease;
+      box-shadow: 0 5px 50px 0 lighten($red, 20%);
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      top: 10px;
+      left: 15px;
+      height: 10px;
+      width: 30px;
+      background: lighten($red, 20%);
+      border-radius: 5px;
+      transform: rotate(45deg);
+      transition: .5s ease;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      top: 10px;
+      left: 0px;
+      height: 10px;
+      width: 30px;
+      background: lighten($red, 20%);
+      border-radius: 5px;
+      transform: rotate(-45deg);
+      transition: .5s ease;
+    }
+  }
+
+  .btnBottom {
+    bottom: -10px;
+    left: 50%;
+    transform:translate(-50%, 40px);
+    &:hover {
+      cursor: pointer;
+      &:before, &:after {
+        background: $red;
+        transition: .5s ease;
+      }
+    }
+    &:active + .count {
+      top: 5px;
+      transition: .5s ease;
+      box-shadow: 0 0px 10px 0 lighten($red, 10%);
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      top: 5px;
+      left: 15px;
+      height: 10px;
+      width: 30px;
+      background: lighten($red, 20%);
+      border-radius: 5px;
+      transform: rotate(135deg);
+      transition: .5s ease;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      top: 5px;
+      left: 0px;
+      height: 10px;
+      width: 30px;
+      background: lighten($red, 20%);
+      border-radius: 5px;
+      transform: rotate(-135deg);
+      transition: .5s ease;
+    }
+  }
+}

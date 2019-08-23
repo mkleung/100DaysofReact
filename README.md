@@ -3,7 +3,7 @@
 
 ### Project 1 - Button Counter
 
-[Demo](https://t2f9h.codesandbox.io/){:target="_blank"}
+[Demo](https://t2f9h.codesandbox.io/)
 
 What I've learned:
 - create-react-app
@@ -16,10 +16,10 @@ https://www.youtube.com/watch?v=Drp3ufpfD_Y
 
 ---
 
-### Project 2 - stopwatch
+### Project 2 - Stopwatch
 
 
-[Demo](https://6fr6p.codesandbox.io/){:target="_blank"}
+[Demo](https://6fr6p.codesandbox.io/)
 
 What I've learned:
 - Props
@@ -36,43 +36,46 @@ https://www.youtube.com/watch?v=NAx76xx40jM&t=304s
 ### Project 3 - Calendar
 
 
-[Demo](https://193rm.codesandbox.io/){:target="_blank"}
+[Demo](https://193rm.codesandbox.io/)
 
 Sources:
 https://www.youtube.com/watch?v=jjMmcQ-xV00&list=PL3jWqOE6WBddjqDLa56SeG2OA0qOB_Rco
 
+---
 
 ### Project 4 - Calculator
 
 
-[Demo](https://mzztr.csb.app/){:target="_blank"}
+[Demo](https://mzztr.csb.app/)
 
 
 Sources:
 https://www.youtube.com/watch?v=ZtU7Mhf9vN8&t=409s
 
+---
+
+### Project 5  - To Do List
 
 
-### Project 4  - Currency Converter
+Sources: https://www.youtube.com/watch?v=h5crrOsLbpk
 
+---
 
-### Project 4 - Canadian Tax Calculator
+### Project 6 - Tic Tac Toe
 
+---
 
+### Project 7- Quiz
 
-### Project 5 - To Do List
+https://www.youtube.com/watch?v=aq-fCtg_gG4
 
+---
 
-### Project 6 - Dictionary
+### Project 8 - Canadian Income Tax Calculator
 
+---
 
-### Project 7 - Tic Tac Toe
-
-
-### Project 8 - Markdown Previewer
-
-
-### Project 6 - Weather app
+### Project 9 - Weather API app
 
 https://www.youtube.com/watch?v=204C9yNeOYI&list=PL4x-yNEsjQpZJvtrhr6Lwn0W3ztCBDCYc&index=1
 
@@ -81,23 +84,12 @@ OR
 https://www.youtube.com/watch?v=IxuqmfO6p28
 
 
-### Project 7- Quiz
+---
 
-https://www.youtube.com/watch?v=aq-fCtg_gG4
-
-
-
-### Project 8 - Rock, Paper, Scissors
+### Project 10a - Instagram Clone Part 1
 
 
-
-### Project 9 - Instagram Clone Part 1
-
-
-### Project 10 Instagram Clone Part 2
-
-
-### HangmanGame
+### Project 10b - Instagram Clone Part 2
 
 
 ### Login / Signup
@@ -109,14 +101,9 @@ https://www.youtube.com/watch?v=56E8b9prPTs
 
 ### Project 4 - Modal + Login/Password
 
-
-
-
 ### Project 6 - Pomodoro Timer
 
 ### Project - Form Input
-
-
 
 ### Project - Drag and drop
 

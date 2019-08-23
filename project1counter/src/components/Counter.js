@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./counter.scss";
 
 class Counter extends Component {
   constructor(props) {
@@ -21,11 +22,10 @@ class Counter extends Component {
   render() {
     const counter = this.state.counter;
     return (
-      <div>
-        <p>This is our current count:</p>
-        <p>{counter}</p>
-        <button onClick={this.increment}>+</button>
-        <button onClick={this.decrement}>-</button>
+      <div className="counter">
+        <button className="btn btnTop" onClick={this.increment} />
+        <button className="btn btnBottom" onClick={this.decrement} />
+        <div className="count">{counter}</div>
       </div>
     );
   }
