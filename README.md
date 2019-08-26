@@ -1,5 +1,5 @@
-100 Days of React Challenge
-===========================
+100 Days of React Challenge (with 20+ Apps)
+=====================================
 
 ### Project 1 - Button Counter
 
@@ -15,11 +15,12 @@ What I've learned:
 Sources
 https://www.youtube.com/watch?v=Drp3ufpfD_Y
 
-Challenge: How often do you check you phone Counter
+### Project 2 - Daily Water Drinking Counter
+
 
 ---
 
-### Project 2 - Stopwatch
+### Project 3 - Stopwatch
 
 
 [Demo](https://6fr6p.codesandbox.io/)
@@ -35,11 +36,12 @@ Sources
 https://www.youtube.com/watch?v=NAx76xx40jM&t=304s
 
 
-Challenge: Timer
+### Project 4 - CountdownTimer
+
 
 ---
 
-### Project 3 - Calendar
+### Project 5 - Monthly Calendar
 
 
 [Demo](https://193rm.codesandbox.io/)
@@ -47,11 +49,13 @@ Challenge: Timer
 Sources:
 https://www.youtube.com/watch?v=jjMmcQ-xV00&list=PL3jWqOE6WBddjqDLa56SeG2OA0qOB_Rco
 
-Challenge: Change months
+
+### Project 6 Yearly Calendar
+
 
 ---
 
-### Project 4 - Calculator
+### Project 7 - Calculator
 
 
 [Demo](https://mzztr.csb.app/)
@@ -60,11 +64,15 @@ Challenge: Change months
 Sources:
 https://www.youtube.com/watch?v=ZtU7Mhf9vN8&t=409s
 
-Challenge: Tax + Tip Calculator
+---
+
+### Project 8 Tax + Tip Calculator
+
 
 ---
 
-### Project 5  - To Do List
+
+### Project 9  - To Do List
 
 [Demo](https://ri74q.csb.app/)
 
@@ -74,30 +82,49 @@ What I've learned:
 Sources: 
 https://www.youtube.com/watch?v=h5crrOsLbpk
 
-Challenge: Daily Schedule List + Calendar Component from Project 3
+---
+
+### Project 10: Daily Schedule List + Calendar Component from Project 3
 
 ---
 
-### Project 6 - Quiz
+### Project 10 - Quiz
 
 https://www.youtube.com/watch?v=aq-fCtg_gG4
 
 
-Challenge: Multistep Form
+---
+
+### Project 11 - Multistep Form
 
 https://www.youtube.com/watch?v=zT62eVxShsY
 
----
 
-### Project 7 - Tic Tac Toe
+### Project 11 - Tic Tac Toe
 
+https://www.youtube.com/watch?v=wjTAhHSKuPg
 
 Challenge: Memory Game
 
+---
+
+### Project 12 - Autocomplete Textbox
+
+https://www.youtube.com/watch?v=NnpISZANByg
+
+### Project 13 - Google Maps
+
+https://www.youtube.com/watch?v=4z4hxEHlsxc
+
+
+### Project 14 - Live Search Pagination
+
+https://www.youtube.com/watch?v=ANlcnknzc8U
+https://www.youtube.com/watch?v=22SAhH5JxYk
 
 ---
 
-### Project 8 - Weather API app
+### Project 15 - Weather API app
 
 https://www.youtube.com/watch?v=204C9yNeOYI&list=PL4x-yNEsjQpZJvtrhr6Lwn0W3ztCBDCYc&index=1
 
@@ -105,92 +132,27 @@ OR
 
 https://www.youtube.com/watch?v=IxuqmfO6p28
 
----
 
-### Prokect 9 - Infinite Scroll
-
-
-Challenge: Pagination
-
-
-
-### Project 10 - Blog
-
-
-
-Challenge: Reddit
-
-
-
----
-
-### Project 10a - Instagram Clone Part 1
-
-
-### Project 10b - Instagram Clone Part 2
-
-
-### Login / Signup
-
-https://www.youtube.com/watch?v=56E8b9prPTs
-
-### Favorite things in city map
-
-
-### Project 4 - Modal + Login/Password
-
-### Project 6 - Pomodoro Timer
-
-### Project - Form Input
-
-### Project - Drag and drop
-
-### Project 5 - Analog Clock
-
-### Project 6 - Quote Generator
-
-### Project 7 - To do list
-
-
-### Project 10 - Recipe App
-
-
-### Project - Map App
+### Project 16 - Map App
 
 https://www.youtube.com/watch?v=Pf7g32CwX_s
 
-### Project 11 - Snake Game
 
-### Project 12 - Grocery Cart
+### Project 17 - Snake Game
 
-### Project 13 - Ai Speech
+https://www.youtube.com/watch?v=-oOgsGP3t5o&t=380s
 
-### Project 14 - Number Game
+### Project 18 - Counter Redux
 
-### Project - Infinite Scroller
+https://www.youtube.com/watch?v=CVpUuw9XSjY&t=736s
 
-https://www.youtube.com/watch?v=8RmRhDiVAiA
+### Project 19 - Shopping Cart Redux
 
-### Project 15 - Instagram clone
+https://www.youtube.com/watch?v=S5ropldlc5E
 
-### Project 16 - Reddit Clone
+### Project 20 - ReactRedux Firebase
 
-### Project 17 - Netflix Clone
-
-### Project 18 - Airbnb Clone
-
-### Projet 19 - Slack/chat Clone
-
-Redux
-======
-
-
-
-React Native
-============
-
-
-https://www.youtube.com/watch?v=gdk7Io8BfUA&list=PLoN_ejT35AEi6ynsLwQJN1o116SFjWuEt&index=1
+https://www.youtube.com/watch?v=Oi4v5uxTY5o&list=PL4cUxeGkcC9iWstfXntcj8f-dFZ4UtlN3
 
 
 
@@ -220,3 +182,9 @@ To deploy App
 
 - npm run build
 - then upload everything inside buld folder into server
+
+
+React Native
+============
+
+https://www.youtube.com/watch?v=gdk7Io8BfUA&list=PLoN_ejT35AEi6ynsLwQJN1o116SFjWuEt&index=1
