@@ -1,0 +1,184 @@
+@import "../../variables.scss";
+
+.logo {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(0.5);
+	
+	height: 300px;
+	width: 300px;
+	div {
+		position: absolute;
+	}
+	.stem {
+		left: 50%;
+		top: 70%;
+		transform: translate(-50%,-50%);
+		height: 75px;
+		width: 5px;
+		background: $red;
+		
+		.leaf {
+			width: 150px;
+			height: 150px;
+			bottom: 75px;
+			left: -73px;
+		
+			.top-left {
+				left: 50%;
+				transform: translate(-50%, 0) rotate(18deg);
+				transform-origin: top;
+				height: 126px;
+				width: 5px;
+				background: $red;
+			}
+			.top-right {
+				top: 0;
+				left: 50%;
+				transform: translate(-50%, 0) rotate(-18deg);
+				transform-origin: top;
+				height: 126px;
+				width: 5px;
+				background: $red;
+			}
+			.bottom-left {
+				bottom: 0;
+				left: 50%;
+				transform: translate(-50%, 0) rotate(50deg);
+				transform-origin: bottom;
+				height: 50px;
+				width: 5px;
+				background: $red;
+			}
+			.bottom-right {
+				bottom: 0;
+				left: 50%;
+				transform: translate(-50%, 0) rotate(-50deg);
+				transform-origin: bottom;
+				height: 50px;
+				width: 5px;
+				background: $red;
+			}
+		}
+
+		.leaf1 {
+			animation: leaf1 1s ease-in-out;
+			transform:rotate(50deg);
+			transform-origin: bottom;
+		}
+		
+		.leaf2 {
+			animation: leaf2 1s ease-in-out;
+			transform:rotate(-50deg);
+			transform-origin: bottom;
+		}
+		
+		.leaf3 {
+			transform:rotate(100deg) scale(0.8);
+			transform-origin: bottom;
+			animation: leaf3 1s ease-in-out;
+		}
+		
+		.leaf4 {
+			transform:rotate(-100deg) scale(0.8);
+			transform-origin: bottom;
+			animation: leaf4 1s ease-in-out;
+		}
+		
+
+		// Small leaf
+		.small-leaf {
+			width: 150px;
+			height: 133px;
+			bottom: 75px;
+			left: -73px;
+			.top-left {
+				left: 50%;
+				transform: translate(-50%, 0) rotate(18deg);
+				transform-origin: top;
+				height: 50px;
+				width: 5px;
+				background: $red;
+			}
+			.top-right {
+				left: 50%;
+				transform: translate(-50%, 0) rotate(-18deg);
+				transform-origin: top;
+				height: 50px;
+				width: 5px;
+				background: $red;
+			}
+		}
+		
+		.leaf5 {
+			
+				transform: rotate(-26deg);
+				transform-origin:bottom;
+				animation: mini-leaf 2s ease-in-out;
+		}
+		
+		.leaf6 {
+				transform: rotate(26deg);
+				transform-origin:bottom;
+			animation: mini-leaf 2s ease-in-out;
+		}
+		
+		.leaf7 {
+				transform: rotate(78deg) scale(0.9);
+				transform-origin:bottom;
+			animation: mini-leaf 2s ease-in-out;
+		}
+		
+		.leaf8 {
+				transform: rotate(-78deg) scale(0.9);
+				transform-origin:bottom;
+			animation: mini-leaf 2s ease-in-out;
+		}
+	}
+}
+
+@keyframes leaf1 {
+	0% {
+			transform:rotate(0deg);
+	}
+	100% {
+			transform:rotate(50deg);
+	}
+}
+
+@keyframes leaf2 {
+	0% {
+			transform:rotate(0deg);
+	}
+	100% {
+			transform:rotate(-50deg);
+	}
+}
+
+@keyframes leaf3 {
+	0% {
+			transform:rotate(0deg) scale(0.8);
+	}
+	100% {
+			transform:rotate(100deg) scale(0.8);
+	}
+}
+
+@keyframes leaf4 {
+	0% {
+			transform:rotate(0deg) scale(0.8);
+	}
+	100% {
+			transform:rotate(-100deg) scale(0.8);
+	}
+}
+
+@keyframes mini-leaf {
+	0%, 25% {
+		opacity: 0;
+	}
+	100% {
+			opacity: 1;
+	}
+}

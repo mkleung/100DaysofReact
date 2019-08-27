@@ -1,7 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import Quiz from "./quiz";
+import "./styles.scss";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+function App() {
+  return (
+    <div className="App">
+      <Quiz />
+    </div>
+  );
+}
 
-
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);

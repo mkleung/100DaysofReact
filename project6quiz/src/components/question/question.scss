@@ -1,0 +1,40 @@
+@import "../../variables.scss";
+
+.question {
+  display: none;
+  .questionTitle {
+    margin-bottom: 25px;
+    text-align:left;
+    font-weight: bold;
+    color: grey;
+  }
+  .choiceWrapper {
+    height: 50px;
+    position: relative;
+    .choice {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border: none;
+      background: $red;
+      box-shadow: 0 2px 0px 0 darken($red, 20%);
+      color: #FFF;
+      border-radius: 5px;
+      height:40px;
+      display: block;
+      margin: 0px;
+      padding: 10px;
+      &:hover {
+        cursor: pointer;
+        background: lighten($red, 20%);
+      }
+      &:active {
+        top: 2px;
+        box-shadow: none;
+      }
+    }
+  }
+}
+.question.active {
+  display : block;
+}
