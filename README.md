@@ -1,6 +1,7 @@
 # 100 Days of React Challenge (with 20+ Apps)
 
 
+
 Project 1 - Button Counter
 ==========================
 
@@ -16,11 +17,8 @@ What I've learned:
 Sources
 https://www.youtube.com/watch?v=Drp3ufpfD_Y
 
-Project 2 - Daily Water Drinking Counter
-==========================
 
-
-Project 3 - Stopwatch
+Project 2 - Stopwatch
 ==========================
 
 [Demo](https://6fr6p.codesandbox.io/)
@@ -36,11 +34,7 @@ Sources
 https://www.youtube.com/watch?v=NAx76xx40jM&t=304s
 
 
-Project 4 - CountdownTimer
-==========================
-
-
-Project 5 - Monthly Calendar
+Project 3 - Monthly Calendar
 ==========================
 
 [Demo](https://193rm.codesandbox.io/)
@@ -49,11 +43,7 @@ Sources:
 https://www.youtube.com/watch?v=jjMmcQ-xV00&list=PL3jWqOE6WBddjqDLa56SeG2OA0qOB_Rco
 
 
-Project 6 Yearly Calendar
-==========================
-
-
-Project 7 - Calculator
+Project 4 - Calculator
 ==========================
 
 [Demo](https://mzztr.csb.app/)
@@ -62,11 +52,7 @@ Sources:
 https://www.youtube.com/watch?v=ZtU7Mhf9vN8&t=409s
 
 
-Project 8 Tax + Tip Calculator
-==========================
-
-
-Project 9  - To Do List
+Project 5  - To Do List
 ==========================
 
 [Demo](https://ri74q.csb.app/)
@@ -78,12 +64,24 @@ Sources:
 https://www.youtube.com/watch?v=h5crrOsLbpk
 
 
-Project 10 - Quiz
+Project 6 - Quiz
 =====================
 
 [Demo](https://bhm6v.csb.app/)
 
 https://www.youtube.com/watch?v=aq-fCtg_gG4
+
+
+Project 7 - Tic Tac Toe
+==========================
+
+https://www.youtube.com/watch?v=wjTAhHSKuPg
+
+
+
+Project 8 Tax + Tip Calculator
+==========================
+
 
 
 Project 11 - Multistep Form
@@ -92,16 +90,20 @@ Project 11 - Multistep Form
 https://www.youtube.com/watch?v=zT62eVxShsY
 
 
-Project 11 - Tic Tac Toe
-==========================
 
-https://www.youtube.com/watch?v=wjTAhHSKuPg
 
 
 Project 12 - Autocomplete Textbox
 ==========================
 
 https://www.youtube.com/watch?v=NnpISZANByg
+
+
+
+
+Project 2 - Daily Water Drinking Counter
+
+
 
 Project 13 - Google Maps
 ==========================
@@ -154,6 +156,9 @@ Project 20 - ReactRedux Firebase
 
 https://www.youtube.com/watch?v=Oi4v5uxTY5o&list=PL4cUxeGkcC9iWstfXntcj8f-dFZ4UtlN3
 
+
+Project 4 - CountdownTimer
+Project 6 Yearly Calendar
 
 
 ### Notes

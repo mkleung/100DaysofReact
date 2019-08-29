@@ -1,0 +1,29 @@
+@import "../../variables.scss";
+
+.left {
+  height: 400px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  .left__subtitle {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .button {
+    color: $blue;
+    border: 2px solid $blue;
+    margin: 10px;
+    min-width: 100px;
+    &:hover {
+      background: $blue;
+      color: #FFF;
+    }
+  }
+
+  .active {
+    background: $blue;
+    color: #FFF;
+  }
+}

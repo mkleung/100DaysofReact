@@ -1,0 +1,12 @@
+.operations {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    min-height: 30px;
+    margin: 0;
+  }
+}

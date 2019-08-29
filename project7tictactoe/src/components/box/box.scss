@@ -1,0 +1,111 @@
+@import "../../variables.scss";
+
+.box {
+  height: 65px;
+  width: 65px;
+  position: relative;
+  &:hover {
+    cursor: pointer;
+    background: lighten($green,40%);
+  }
+
+  .inner{
+      opacity: 0;
+      transition: opacity .2s ease-in-out;
+  }
+
+  .x {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30px;
+    width: 30px;
+    // border:5px solid $blue;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    transition: opacity .2s ease-in-out;
+
+    &:before {
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      content: "";
+      height: 5px;
+      width: 45px;
+      border-radius: 50%;
+      background: $blue;
+      transform: rotate(43deg);
+      transform-origin: left;
+    }
+    &:after {
+      position: absolute;
+      top: 30px;
+      left: -5px;
+      content: "";
+      height: 5px;
+      width: 50px;
+      border-radius: 50%;
+      background: $blue;
+      transform: rotate(-43deg);
+      transform-origin: left;
+    }
+  }
+
+  .o {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 5px solid $green;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    transition: opacity .2s ease-in-out .2s;
+  }
+
+  .o.win {
+    border: 5px solid red;
+    transition: border .2s ease-in-out;
+  }
+
+  .x.win {
+    &:after {
+      background: red;
+      transition: background .2s ease-in-out;
+    }
+    &:before {
+      background: red;
+      transition: background .2s ease-in-out;
+    }
+  }
+}
+.box0 {
+  border-bottom: 1px solid $grey;
+}
+.box1 {
+  border-left: 1px solid $grey;
+  border-bottom: 1px solid $grey;
+  border-right: 1px solid $grey;
+}
+.box2 {
+  border-bottom: 1px solid $grey;
+}
+
+.box3 {
+  border-bottom: 1px solid $grey;
+}
+.box4 {
+  border-left: 1px solid $grey;
+  border-bottom: 1px solid $grey;
+  border-right: 1px solid $grey;
+}
+.box5 {
+  border-bottom: 1px solid $grey;
+}
+
+.box7 {
+  border-left: 1px solid $grey;
+  border-right: 1px solid $grey;
+}
+
