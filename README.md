@@ -1,6 +1,6 @@
 # 100 Days of React Challenge (with 20+ Apps)
 
-
+### BASIC REACT
 
 Project 1 - Button Counter
 ==========================
@@ -73,71 +73,52 @@ https://www.youtube.com/watch?v=aq-fCtg_gG4
 
 
 Project 7 - Tic Tac Toe
-==========================
+=======================
 
+[Demo](https://jyy84.csb.app/)
+
+Tutorial: 
 https://www.youtube.com/watch?v=wjTAhHSKuPg
 
 
 
-Project 8 Tax + Tip Calculator
+Project 8 - Map App
 ==========================
 
+[Demo](https://7s9cd.csb.app)
+
+What I've learned:
+- React-map-gl package (npm install --save react-map-gl)
+- Setting environental variables (npm install --save-dev dotenv)
+- {process.env.API_URL}
+- React Hooks (useState, useEddect, keydown)
+
+Source:
+https://www.youtube.com/watch?v=JJatzkPcmoI&t=29s
+
+https://www.youtube.com/watch?v=4z4hxEHlsxc (autocomplete search)
 
 
-Project 11 - Multistep Form
-==========================
-
-https://www.youtube.com/watch?v=zT62eVxShsY
+Project 10 - Snake Game
+=========================
 
 
-
-
-
-Project 12 - Autocomplete Textbox
-==========================
-
-https://www.youtube.com/watch?v=NnpISZANByg
-
-
-
-
-Project 2 - Daily Water Drinking Counter
-
-
-
-Project 13 - Google Maps
-==========================
-
-https://www.youtube.com/watch?v=4z4hxEHlsxc
-
-
-Project 14 - Live Search Pagination
-==========================
-
-https://www.youtube.com/watch?v=ANlcnknzc8U
-https://www.youtube.com/watch?v=22SAhH5JxYk
-
-
-Project 15 - Weather API app
-==========================
-
-https://www.youtube.com/watch?v=204C9yNeOYI&list=PL4x-yNEsjQpZJvtrhr6Lwn0W3ztCBDCYc&index=1
-
-OR
-
-https://www.youtube.com/watch?v=IxuqmfO6p28
-
-
-Project 16 - Map App
-==========================
-
-https://www.youtube.com/watch?v=Pf7g32CwX_s
-
-
-Project 17 - Snake Game
+Project 11 - Pmodoro Timer
 ==========================
 
 https://www.youtube.com/watch?v=-oOgsGP3t5o&t=380s
+
+
+
+
+### REDUX & GraphQL
+
+Project 11 - BLOG
+
+- GraphyQL
+
+https://www.youtube.com/watch?v=L8XXzOR59Bs
+
 
 Project 18 - Counter Redux
 ==========================
@@ -157,11 +138,22 @@ Project 20 - ReactRedux Firebase
 https://www.youtube.com/watch?v=Oi4v5uxTY5o&list=PL4cUxeGkcC9iWstfXntcj8f-dFZ4UtlN3
 
 
-Project 4 - CountdownTimer
-Project 6 Yearly Calendar
+
+### REACT NATIVE
+
+Project 1 -Mood & Habit Tracker React Native
+==========================
+
+https://www.youtube.com/watch?v=YQj84z7VWk0&list=PLQocKVqyqZDQrUU7zUfFogbAO0ynvQK2j
 
 
-### Notes
+
+Project - Chat App
+
+
+
+
+### NOTES
 
 Class Components
 - Contains state

@@ -1,0 +1,115 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "FACILITYID": 36111,
+        "NAME": "Westboro Beach",
+        "NAME_FR": "Plage Westboro",
+        "ADDRESS": "234 Atlantis Ave.",
+        "ADDRESS_FR": "234, av. Atlantis",
+        "BEACH_TYPE": "Plage",
+        "ACCESSIBLE": null,
+        "OPEN": null,
+        "NOTES": null,
+        "MODIFIED_D": "2014/09/29",
+        "CREATED_DA": null,
+        "LINK": "http://ottawa.ca/en/taxonomy/term/2639",
+        "LINK_FR": "http://ottawa.ca/fr/taxonomy/term/2639",
+        "LINK_LABEL": "Beaches",
+        "LINK_LAB_1": "Plages",
+        "LINK_DESCR": null,
+        "LINK_DES_1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.761270986409158, 45.395397260386659]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FACILITYID": 36113,
+        "NAME": "Britannia Beach",
+        "NAME_FR": "Plage Britannia",
+        "ADDRESS": "102 Greenview Rd.",
+        "ADDRESS_FR": "102, ch. Greenview",
+        "BEACH_TYPE": "Plage",
+        "ACCESSIBLE": null,
+        "OPEN": null,
+        "NOTES": null,
+        "MODIFIED_D": "2014/09/29",
+        "CREATED_DA": null,
+        "LINK": "http://ottawa.ca/en/taxonomy/term/2639",
+        "LINK_FR": "http://ottawa.ca/fr/taxonomy/term/2639",
+        "LINK_LABEL": "Beaches",
+        "LINK_LAB_1": "Plages",
+        "LINK_DESCR": null,
+        "LINK_DES_1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.801379984779146, 45.36474037353495]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FACILITYID": 36110,
+        "NAME": "Petrie Island Beach",
+        "NAME_FR": "Plage de l'île Petrie",
+        "ADDRESS": "777 Trim Rd.",
+        "ADDRESS_FR": "777, ch. Trim",
+        "BEACH_TYPE": "Plage",
+        "ACCESSIBLE": null,
+        "OPEN": null,
+        "NOTES": null,
+        "MODIFIED_D": "2014/09/29",
+        "CREATED_DA": null,
+        "LINK": "http://ottawa.ca/en/taxonomy/term/2639",
+        "LINK_FR": "http://ottawa.ca/fr/taxonomy/term/2639",
+        "LINK_LABEL": "Beaches",
+        "LINK_LAB_1": "Plages",
+        "LINK_DESCR": null,
+        "LINK_DES_1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.488314773209126, 45.507220943836991]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FACILITYID": 36112,
+        "NAME": "Mooney's Bay Beach",
+        "NAME_FR": "Plage de Mooney’s Bay",
+        "ADDRESS": "2960 Riverside Dr.",
+        "ADDRESS_FR": "2960, prom. Riverside",
+        "BEACH_TYPE": "Plage",
+        "ACCESSIBLE": null,
+        "OPEN": null,
+        "NOTES": null,
+        "MODIFIED_D": "2014/09/29",
+        "CREATED_DA": null,
+        "LINK": "http://ottawa.ca/en/taxonomy/term/2639",
+        "LINK_FR": "http://ottawa.ca/fr/taxonomy/term/2639",
+        "LINK_LABEL": "Beaches",
+        "LINK_LAB_1": "Plages",
+        "LINK_DESCR": null,
+        "LINK_DES_1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.693538851698477, 45.366430674244356]
+      }
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+@import "../variables.scss";
+
+
+.button {
+  border: 2px solid $blue;
+  background: transparent;
+  padding: 10px 15px;
+  color: $blue;
+  min-width: 150px;
+  transition: .5s ease;
+  // font-weight: bold;
+  &:hover {
+    cursor: pointer;
+    background: $blue;
+    color: #FFF;
+    transition: .5s ease;
+  }
+}
+.button.active {
+  background: $blue;
+  color: #FFF;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 500px;
+  width: 900px;
+  box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.2);
+  border-radius: 20px;
+  transform: translate(-50%, -50%);
+
+  font-family: 'Lato', sans-serif;
+
+  .map {
+    float: right;
+    width: 60%;
+    height: 100%;
+
+    border-radius: 0 10px 10px 0;
+
+
+  }
+}
+
+
+.parkButton {
+  background: none;
+  border: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.mapboxgl-map {
+  border-radius: 0 10px 10px 0;
+}
+
+// MAP ZOOM
+
+.closeMarker {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border: none;
+  background: $blue;
+  color: #FFF;
+  z-index: 99;
+  transition: .5s ease;
+  height: 25px;
+  width: 25px;
+  font-weight: bold;
+  border-radius: 50%;
+  transform: rotate(0deg);
+  &:hover{
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: .5s ease;
+  }
+}
+
+
+.mapboxgl-popup-close-button {
+  display:none;
+}
+
+.mapboxgl-ctrl-group {
+  width: 30px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.mapboxgl-ctrl-compass {
+  display:none!important;
+}
+
+.mapboxgl-popup {
+  max-width: 300px!important;
+}
+
+.mapboxgl-popup-content {
+  padding: 10px 40px;
+  text-align: left;
+  height: 180px;
+}
+
+.link {
+  margin-top: 40px;
+}
