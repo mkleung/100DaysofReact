@@ -99,15 +99,24 @@ https://www.youtube.com/watch?v=JJatzkPcmoI&t=29s
 https://www.youtube.com/watch?v=4z4hxEHlsxc (autocomplete search)
 
 
-Project 10 - Snake Game
+Project 9 - Snake Game
 =========================
 
 
-Project 11 - Pmodoro Timer
+
+Source: https://www.youtube.com/watch?v=-oOgsGP3t5o&t=4s
+
+
+
+Project 10 - Chat application
 ==========================
 
 https://www.youtube.com/watch?v=-oOgsGP3t5o&t=380s
 
+
+project 11  - Typing Speed Calculation App
+
+https://www.youtube.com/watch?v=2VGUGpZFY5s
 
 
 
