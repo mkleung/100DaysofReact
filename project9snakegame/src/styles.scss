@@ -1,0 +1,14 @@
+@import "./variables.scss";
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+
+  height: 100vh;
+  background:linear-gradient($blue, #0B935B);
+}
+
+body {
+  margin: 0;
+}

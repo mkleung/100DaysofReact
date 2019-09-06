@@ -1,6 +1,5 @@
 # 100 Days of React Challenge (with 20+ Apps)
 
-### BASIC REACT
 
 Project 1 - Button Counter
 ==========================
@@ -91,32 +90,40 @@ What I've learned:
 - React-map-gl package (npm install --save react-map-gl)
 - Setting environental variables (npm install --save-dev dotenv)
 - {process.env.API_URL}
-- React Hooks (useState, useEddect, keydown)
+- React Hooks (useState, useEffect, keydown)
 
 Source:
 https://www.youtube.com/watch?v=JJatzkPcmoI&t=29s
 
-https://www.youtube.com/watch?v=4z4hxEHlsxc (autocomplete search)
 
 
 Project 9 - Snake Game
 =========================
 
+[Demo](https://qch74.csb.app/)
 
+What I've learned:
+- 
 
 Source: https://www.youtube.com/watch?v=-oOgsGP3t5o&t=4s
 
 
-
-Project 10 - Chat application
-==========================
-
-https://www.youtube.com/watch?v=-oOgsGP3t5o&t=380s
+### Project 10 - Capstone Project - Gym Tracker
 
 
-project 11  - Typing Speed Calculation App
+What I've learned: 
+- Routes
+- Login/Authentication
 
-https://www.youtube.com/watch?v=2VGUGpZFY5s
+
+Project 11 - 
+
+
+Project 12 - Flappy Bird React Native
+======================================
+
+https://www.youtube.com/watch?v=qBGnfULn8W4
+
 
 
 
@@ -194,3 +201,11 @@ React Native
 ============
 
 https://www.youtube.com/watch?v=gdk7Io8BfUA&list=PLoN_ejT35AEi6ynsLwQJN1o116SFjWuEt&index=1
+
+
+
+| Project        | Demo        | Screenshot  |  Turorial  |
+| ------------- |:-------------:|:-----:|  -----:  |
+| 1.  Counter    |  |  | https://www.youtube.com/watch?v=Drp3ufpfD_Y|
+| 2. Stopwatch    | |  | |
+| 3. Calendar |       |  ||

@@ -1,0 +1,66 @@
+@import "../../variables.scss";
+
+.head {
+  background: #0B935B;
+  height: 15%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #FFF;
+  position: relative;
+  
+
+  .play {
+    position: absolute;
+    right: 5px;
+    bottom: -20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: $orange;
+    color: #FFF;
+    border:none;
+    font-size: 2em;
+    z-index: 2;
+    transition: .5s ease;
+
+    &:hover {
+      cursor: pointer;
+      background: lighten($orange, 10%);
+      transition: .5s ease;
+    }
+  }
+
+  .replay {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    height: 40px;
+    width: 60px;
+    // border-radius: 50%;
+    border-radius: 5px;
+    background: $orange;
+    color: #FFF;
+    border:none;
+    font-size: 1em;
+    z-index: 2;
+    transition: .5s ease;
+    .icon {
+      transition: .5s ease;
+    }
+    &:hover {
+      cursor: pointer;
+      background: lighten($orange, 10%);
+      transition: .5s ease;
+    }
+    &:active  {
+      .icon {
+        transform: rotate(-360deg);
+        transition: .5s ease;
+      }
+    }
+  }
+
+  
+}

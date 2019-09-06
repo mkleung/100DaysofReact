@@ -1,0 +1,48 @@
+@import "../../variables.scss";
+
+.board {
+  height: 400px;
+  width: 400px;
+  background: #FFF;
+  position: relative;
+  overflow: hidden;
+  
+  .food {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+     &:after {
+      content: "";
+      position:absolute;
+      top: 2px;
+      right: 2.5px;
+      background: linear-gradient(lighten($orange, 15%),$orange);
+      width: 15px; 
+      height: 15px;
+      border-radius: 50%;
+    }
+  }
+
+  .snakeBall {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      height: 15px;
+      width: 15px;
+      background: linear-gradient(lighten($green, 15%),$green);
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  // .snakeBall:last-child {
+  //   background: red;
+  // }
+  // .snakeBall:nth-child(2)  {
+  //   background: yellow;
+  // }
+}
