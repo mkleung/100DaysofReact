@@ -71,7 +71,8 @@ What I've learned:
 
 ### Project 10 - React Router
 
-https://www.youtube.com/watch?v=h1ivekTEC2M&list=PLuNEz8XtB51KfnHc99GwscPy1UbLJyXHW&index=1
+https://www.youtube.com/watch?v=3B588JwyT18
+
 
 
 ### Project 11 - Color Picker
