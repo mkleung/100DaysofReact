@@ -1,0 +1,10 @@
+.navbar {
+  background: #066C1F!important;
+
+  .navbar-nav {
+    flex-direction: row;
+    .nav-link {
+      padding: .5rem 1rem;
+    }
+  }
+}

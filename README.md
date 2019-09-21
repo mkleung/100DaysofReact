@@ -69,7 +69,10 @@ What I've learned:
 [Tutorial Source](https://www.youtube.com/watch?v=-oOgsGP3t5o&t=4s)
 
 
-### Project 10 - React Router
+### Project 10 - React Router Signup [Demo](https://45g3m.csb.app/)
+
+What I've learned:
+- Private Routes
 
 https://www.youtube.com/watch?v=ojYbcon588A
 

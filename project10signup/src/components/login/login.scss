@@ -1,0 +1,72 @@
+
+.loginForm{
+
+  .loginImg {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+  }
+
+  .btn {
+    margin-bottom: 10px;
+    width: 100%!important;
+    margin-top: 10px;
+  }
+
+  .loginInput {
+    padding-left:30px!important;
+    padding-bottom: 8px;
+  }
+
+  .loginEmail {
+    background-image: url("email1.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+
+    &:focus {
+      background-image: url("email2.png");
+      outline: none!important;
+      color: #066C1F;
+    }
+  }
+
+  .loginPassword {
+    background-image: url("lock1.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+
+    &:focus {
+      background-image: url("lock2.png");
+      color: #066C1F;
+    }
+  }
+
+  .password {
+    position: relative;
+    .eye {
+      position: absolute;
+      right: 0;
+      top: 5px;
+  
+      height: 30px;
+      width: 30px;
+      // background: red;
+      border: none;
+      background-image: url("eye1.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      background-color: transparent;
+    }
+    .green {
+      background-image: url("eye2.png");
+    }
+  }
+
+}
+
+.sign {
+  margin: 10px 0;
+  font-size: .8em;
+}
