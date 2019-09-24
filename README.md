@@ -1,5 +1,5 @@
 
-100 Days of React Challenge (Build 50+ Practical Apps)
+100 Days of React Challenge (Build 30+ Practical Apps)
 ==============
 ### Project 1 - Button Counter   [Demo](https://t2f9h.codesandbox.io/)
 
@@ -77,66 +77,126 @@ What I've learned:
 https://www.youtube.com/watch?v=ojYbcon588A
 
 
+### Project 11 - React Hooks Starwars API
+
+https://www.youtube.com/watch?v=-MlNBTSg_Ww
+
+### Project 12 - React Hooks Bookmarks
+
+https://www.youtube.com/watch?v=Ev9YLaLvAJM
 
 
-### Project 11 - Color Picker
+### Project 12 - Context API Movie Database
 
-https://www.youtube.com/watch?v=HGd3m9QUsYQ
+https://www.youtube.com/watch?v=35lXWvCuM8o
 
 
-Redux
+### Project 13 - React Animations
+
+https://www.youtube.com/watch?v=BZRyIOrWfHU
+
+
+### Project 14 - React Router Page transitions
+
+https://www.youtube.com/watch?v=53Y8q-SgLF0
+
+https://www.youtube.com/watch?v=NUQkajBdnmQ
+
+
+### Project 15 - Mouse Events
+
+https://www.youtube.com/watch?v=l_ahowxmqzg
+
+
+### Project 15 - React - FlappyBird
+
+https://www.youtube.com/watch?v=pufKO5EG8nc
+
+
+REDUX
 ======
 
-### Project 12 - Counter Redux
+### Project 16 - Redux for beginners
 
-https://www.youtube.com/watch?v=CVpUuw9XSjY&t=1682s
-
-https://www.youtube.com/watch?v=KcC8KZ_Ga2M
+https://www.youtube.com/watch?v=CVpUuw9XSjY&t=1928s
 
 
-### Project 13 - Shopping Cart Redux
+### Project 17 - Shopping Cart Redux
 
-[Source Tutorial]([https://www.youtube.com/watch?v=KLCnTjB0w_o](https://www.youtube.com/watch?v=KLCnTjB0w_o))
+https://www.youtube.com/watch?v=T_HtlP80UYc
 
 
-GraphQL
+### Project 18  - Redux Contact List (Thunk)
+
+https://www.youtube.com/watch?v=EfzVf4eoJ-c
+
+
+### Project 19 - Redux more Theory
+
+https://www.youtube.com/watch?v=OSSpVLpuVWA
+
+
+### Project 20 - Reduxagram
+
+https://www.youtube.com/watch?v=hmwBow1PUuo&list=PLu8EoSxDXHP5uyzEWxdlr9WQTJJIzr6jy
+
+
+ADVANCED REACT
 ========
 
-### Project 14 - Blog
+### Project 21 - Graph QL Blog
 
 https://www.youtube.com/watch?v=L8XXzOR59Bs
 
 
+### Project 22 - RXJS
 
-React Native
+https://www.youtube.com/watch?v=PhggNGsSQyg
+
+### Project 23 - MobX
+
+https://www.youtube.com/watch?v=Dp75-DnGFrU
+
+### PRoject 24 - React Flux
+
+
+### Project 25 - React Firebase
+
+
+REACT NATIVE
 ============
 
-### Project 15 Weather App
+### Project 31 - Counter Redux Native/To Do
+
+https://www.youtube.com/watch?v=KcC8KZ_Ga2M
+
+
+### Project 32 Weather App
 
 https://www.youtube.com/watch?v=gdk7Io8BfUA&list=PLoN_ejT35AEi6ynsLwQJN1o116SFjWuEt&index=1
 
 
-### Project 16 - React Native Calculator
+### Project 33 - React Native Calculator
 
 https://www.youtube.com/watch?v=kye4zEwDxgU
 
 
-### Project 17 - Flappy Bird React Native
+### Project 34 - Flappy Bird React Native
 
 [Source Tutorial](https://www.youtube.com/watch?v=qBGnfULn8W4)
 
 
-### Project 18 - React Native Stopwatch
+### Project 35 - React Native Stopwatch
 
 https://www.youtube.com/watch?v=gWegskGYCtA
 
 
-### Project 19 -Mood & Habit Tracker React Native
+### Project 36 -Mood & Habit Tracker React Native
 
 https://www.youtube.com/watch?v=YQj84z7VWk0&list=PLQocKVqyqZDQrUU7zUfFogbAO0ynvQK2j
 
   
-### Project 20 - Uber clone
+### Project 37 - Uber clone
 
 https://www.youtube.com/watch?v=CB_nXOOz_AY&list=PL6hffAJvRwYJTf6kuxrK4PJzjoxTqau9V
 
