@@ -74,43 +74,35 @@ What I've learned:
 What I've learned:
 - Private Routes
 
-https://www.youtube.com/watch?v=ojYbcon588A
+[Source Tutorial](https://www.youtube.com/watch?v=ojYbcon588A)
 
 
-### Project 11 - React Hooks Starwars API
+### Project 11 - React Hooks Starwars API [Demo](https://u4xqw.csb.app/)
 
-https://www.youtube.com/watch?v=-MlNBTSg_Ww
-
-### Project 12 - React Hooks Bookmarks
-
-https://www.youtube.com/watch?v=Ev9YLaLvAJM
+[Source Tutorial](https://www.youtube.com/watch?v=-MlNBTSg_Ww)
 
 
 ### Project 12 - Context API Movie Database
 
-https://www.youtube.com/watch?v=35lXWvCuM8o
+[Source Tutorial](https://www.youtube.com/watch?v=35lXWvCuM8o)
 
 
-### Project 13 - React Animations
+### Project 13 - React Animations + Transitions Real Estate App
 
-https://www.youtube.com/watch?v=BZRyIOrWfHU
+Animations
+[Source Tutorial](https://www.youtube.com/watch?v=BZRyIOrWfHU)
 
-
-### Project 14 - React Router Page transitions
-
-https://www.youtube.com/watch?v=53Y8q-SgLF0
-
-https://www.youtube.com/watch?v=NUQkajBdnmQ
+Transitions
+[Source Tutorial](https://www.youtube.com/watch?v=NUQkajBdnmQ)
 
 
-### Project 15 - Mouse Events
+### Project 14 - React Refs
 
-https://www.youtube.com/watch?v=l_ahowxmqzg
-
+[Source Tutorial](https://www.youtube.com/watch?v=tiytyGEodl0&t=235s)
 
 ### Project 15 - React - FlappyBird
 
-https://www.youtube.com/watch?v=pufKO5EG8nc
+[Source Tutorial](https://www.youtube.com/watch?v=pufKO5EG8nc)
 
 
 REDUX
@@ -161,6 +153,11 @@ https://www.youtube.com/watch?v=Dp75-DnGFrU
 
 
 ### Project 25 - React Firebase
+
+
+### Project 26 - Redux RPG Game Zelda
+
+https://www.youtube.com/watch?v=QZcNGfcn-oo
 
 
 REACT NATIVE
@@ -217,17 +214,71 @@ return <h1>Hello</h1>;
 export default Welcome;
 ```
 
-***Function Components***
-
-- simple and lightweight components for when you need to render visual elements that depend mainly on props for their data
-
-- Do not implement local state managemnt
-
+***Function Components (hooks) ***
 
 ```
-const Message = ({messageprop}) => (<div>Component</div>);
+import React, { useState, useEffect } from "react";
+const People = props => {
+    const [name, setName] = useState("");
+
+    // ComponentWillMount
+    useEffect(() => {
+        setName("mike)  // setState
+        console.log("component will mount");
+    }, []);
+
+    // Render
+    return (div>{name}</div>)
+}
 ```
 
-To deploy App
-- npm run build
-- then upload everything inside buld folder into server
+***Component Lifecycle***
+
+1. Constructor
+
+- First thing that runs
+- A good place where you set state
+
+2. ComponentWillMount
+
+- Runs after constructor
+- Render has not happened yet
+- Ony runs once and before render
+
+3. Render
+
+- Every component should have a render method
+- Takes the state and prop and display on screen
+- Do not use set state in render
+
+
+4. ComponentDidMount
+
+- run AFTER the render method and all child components
+- make an ajax call
+- Setup any subscriptions
+
+5. ComponentWillReceiveProps
+
+- have a glimpse of upcoming state and props
+- Setstate
+
+5. shouldComponentUpdate
+
+- return true or false
+- should render component or not.
+
+6. ComponentWillUpdate 
+
+- do not set state here
+- called before component renders
+
+
+6. ComponentDidUpdate
+
+- Has previous props amd state
+- set Third party ui elements
+
+7. ComponentWillUnmount
+
+- cleanup
