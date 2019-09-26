@@ -282,3 +282,26 @@ const People = props => {
 7. ComponentWillUnmount
 
 - cleanup
+
+
+*** Redux ***
+
+STORE
+
+- Holds our state and there is only one state
+
+ACTION
+
+- State can be modified using actions - simple objects
+
+DISPATCHER
+
+- Action needs to be sent by someone - known as dispatching an action
+
+REDUCER
+
+- Received the action and modifies the state to give us a new state
+
+SUBSCRIBER
+
+- Listens for state change to update the ui using connect
