@@ -149,8 +149,7 @@ https://www.youtube.com/watch?v=WnS7dcY5Hys&t=877s
 
 ### Project 21 - Counter Redux Native/To Do 
 
-<div data-snack-id="@mpakleung/project-21---redux-counter" data-snack-platform="android" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#fafafa;border:1px solid rgba(0,0,0,.08);border-radius:4px;height:505px;width:100%"></div>
-<script async src="https://snack.expo.io/embed.js"></script>
+[Demo](https://appetize.io/embed/8bnmakzrptf1hv9dq7v7bnteem?autoplay=false&debug=true&device=iphone6s&deviceColor=black&embed=true&orientation=portrait&screenOnly=false&xDocMsg=true&xdocMsg=true&params=%7B%22EXKernelLaunchUrlDefaultsKey%22:%22exp:%2F%2Fexpo.io%2F@mpakleung%2Fproject-21---redux-counter%2BKNWZc6aZP%22,%22EXKernelDisableNuxDefaultsKey%22:true%7D&scale=75&osVersion=11.4)
 
 https://www.youtube.com/watch?v=KcC8KZ_Ga2M
 
