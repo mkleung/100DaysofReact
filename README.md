@@ -69,12 +69,20 @@ What I've learned:
 [Tutorial Source](https://www.youtube.com/watch?v=-oOgsGP3t5o&t=4s)
 
 
+REACT ROUTER & HOOKS
+====================
+
 ### Project 10 - React Router Signup [Demo](https://45g3m.csb.app/)
 
 What I've learned:
 - Private Routes
+- Refs
 
+React Router
 [Source Tutorial](https://www.youtube.com/watch?v=ojYbcon588A)
+
+Ref
+[Source Tutorial](https://www.youtube.com/watch?v=tiytyGEodl0&t=235s)
 
 
 ### Project 11 - React Hooks Starwars API [Demo](https://u4xqw.csb.app/)
@@ -87,7 +95,7 @@ What I've learned:
 [Source Tutorial](https://www.youtube.com/watch?v=35lXWvCuM8o)
 
 
-### Project 13 - React Animations + Transitions Real Estate App
+### Project 13 - React Animations + Router Transitions Real Estate App + map
 
 Animations
 [Source Tutorial](https://www.youtube.com/watch?v=BZRyIOrWfHU)
@@ -95,18 +103,22 @@ Animations
 Transitions
 [Source Tutorial](https://www.youtube.com/watch?v=NUQkajBdnmQ)
 
+Google Maps location search
+https://www.youtube.com/watch?v=4z4hxEHlsxc&t=132s
 
-### Project 14 - React Refs
 
-[Source Tutorial](https://www.youtube.com/watch?v=tiytyGEodl0&t=235s)
+### Project 14 - Tetric React Hooks
 
-### Project 15 - React - FlappyBird
+https://www.youtube.com/watch?v=CUt3Mf9MYhc
+
+
+### Project 15 - React Hooks - FlappyBird
 
 [Source Tutorial](https://www.youtube.com/watch?v=pufKO5EG8nc)
 
 
-REDUX
-======
+REDUX INTRO
+===========
 
 ### Project 16 - Redux for beginners
 
