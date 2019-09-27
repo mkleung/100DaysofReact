@@ -133,69 +133,82 @@ https://www.youtube.com/watch?v=OSSpVLpuVWA
 https://www.youtube.com/watch?v=hmwBow1PUuo&list=PLu8EoSxDXHP5uyzEWxdlr9WQTJJIzr6jy
 
 
-ADVANCED REACT
-========
-
-### Project 21 - Graph QL Blog
-
-https://www.youtube.com/watch?v=L8XXzOR59Bs
-
-
-### Project 22 - RXJS
-
-https://www.youtube.com/watch?v=PhggNGsSQyg
-
-### Project 23 - MobX
-
-https://www.youtube.com/watch?v=Dp75-DnGFrU
-
-### PRoject 24 - React Flux
-
-
-### Project 25 - React Firebase
-
-
-### Project 26 - Redux RPG Game Zelda
-
-https://www.youtube.com/watch?v=QZcNGfcn-oo
-
-
 REACT NATIVE
 ============
 
-### Project 31 - Counter Redux Native/To Do
+### React Native Installation 
+ 
+```npm install expo-cli --global```
+```expo start```
+
+https://expo.io/learn
+OR
+Installation
+https://www.youtube.com/watch?v=WnS7dcY5Hys&t=877s
+
+
+### Project 21 - Counter Redux Native/To Do
 
 https://www.youtube.com/watch?v=KcC8KZ_Ga2M
 
 
-### Project 32 Weather App
+### Project 22 Weather App
 
 https://www.youtube.com/watch?v=gdk7Io8BfUA&list=PLoN_ejT35AEi6ynsLwQJN1o116SFjWuEt&index=1
 
 
-### Project 33 - React Native Calculator
+### Project 23 - React Native Calculator
 
 https://www.youtube.com/watch?v=kye4zEwDxgU
 
 
-### Project 34 - Flappy Bird React Native
+### Project 24 - Flappy Bird React Native
 
 [Source Tutorial](https://www.youtube.com/watch?v=qBGnfULn8W4)
 
 
-### Project 35 - React Native Stopwatch
+### Project 25 - React Native Stopwatch
 
 https://www.youtube.com/watch?v=gWegskGYCtA
 
 
-### Project 36 -Mood & Habit Tracker React Native
+
+### Project 26 -Mood & Habit Tracker React Native
 
 https://www.youtube.com/watch?v=YQj84z7VWk0&list=PLQocKVqyqZDQrUU7zUfFogbAO0ynvQK2j
 
   
-### Project 37 - Uber clone
+### Project 27 - Uber clone
 
 https://www.youtube.com/watch?v=CB_nXOOz_AY&list=PL6hffAJvRwYJTf6kuxrK4PJzjoxTqau9V
+
+
+
+ADVANCED REACT
+===============
+
+### Project 31 - Graph QL Blog
+
+https://www.youtube.com/watch?v=L8XXzOR59Bs
+
+
+### Project 32 - RXJS
+
+https://www.youtube.com/watch?v=PhggNGsSQyg
+
+### Project 33 - MobX
+
+https://www.youtube.com/watch?v=Dp75-DnGFrU
+
+### PRoject 34 - React Flux
+
+
+### Project 35 - React Firebase
+
+
+### Project 36 - Redux RPG Game Zelda
+
+https://www.youtube.com/watch?v=QZcNGfcn-oo
 
   
 ### NOTES

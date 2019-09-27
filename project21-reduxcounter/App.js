@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import {
-    View,
-    Text,
-    StyleSheet,
-    TouchableOpacity
+    StyleSheet
 } from "react-native";
 import { createStore } from 'redux'
 import CounterApp from './components/CounterApp'

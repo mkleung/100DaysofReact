@@ -6,9 +6,6 @@ import {
     TouchableOpacity
 } from "react-native";
 import { connect } from 'react-redux'
-import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
-import { faPlus } from '@fortawesome/free-solid-svg-icons'
-import { faMinus } from '@fortawesome/free-solid-svg-icons'
 
 class CounterApp extends Component {
     render() {
@@ -16,11 +13,11 @@ class CounterApp extends Component {
             <View style={styles.container}>
                 <View style={{ flexDirection: 'row', width: 200, justifyContent: 'space-around' }}>
                     <TouchableOpacity onPress={() => this.props.increaseCounter()}>
-                    <FontAwesomeIcon icon={ faPlus } />
+                        <Text>+</Text>
                     </TouchableOpacity>
                     <Text style={{ fontSize: 20 }}>{this.props.counter}</Text>
                     <TouchableOpacity onPress={() => this.props.decreaseCounter()}>
-                    <FontAwesomeIcon icon={ faMinus } />
+                        <Text>-</Text>
                     </TouchableOpacity>
                 </View>
             </View>
