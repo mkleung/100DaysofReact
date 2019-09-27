@@ -6,9 +6,8 @@ import {
     TouchableOpacity
 } from "react-native";
 import { connect } from 'react-redux'
+import { Image } from 'react-native';
 
-// https://expo.github.io/vector-icons/
-import { Ionicons } from '@expo/vector-icons';
 
 class CounterApp extends Component {
 
@@ -17,11 +16,19 @@ class CounterApp extends Component {
             <View style={styles.container}>
                 <View style={styles.button_wrapper}>
                     <TouchableOpacity onPress={() => this.props.increaseCounter()}>
-                        <Ionicons name="md-add" size={40} color="#EC645B" />
+                       <Image
+        source={require('../assets/add.png')}
+        fadeDuration={0}
+        style={styles.button}
+      />
                     </TouchableOpacity>
                     <Text style={{ fontSize: 40 }}>{this.props.counter}</Text>
                     <TouchableOpacity onPress={() => this.props.decreaseCounter()}>
-                        <Ionicons name="md-remove" size={40} color="#EC645B" />
+                        <Image
+        source={require('../assets/remove.png')}
+        fadeDuration={0}
+        style={styles.button}
+      />
                     </TouchableOpacity>
                 </View>
             </View>
@@ -54,11 +61,17 @@ const styles = StyleSheet.create({
     },
     button_wrapper: {
         flexDirection: 'row', 
-        width: 200, 
+        width: 250, 
         height: 100,
         backgroundColor: "#FFF",
-        justifyContent: 'space-around',
+        justifyContent: 'space-between',
         alignItems: 'center',
-        borderRadius: 50
+        borderRadius: 50,
+        paddingRight: 20,
+        paddingLeft: 20
+    },
+    button: {
+        width: 30,
+        height: 30
     }
 })

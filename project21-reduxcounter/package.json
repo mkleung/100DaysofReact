@@ -1,5 +1,5 @@
 {
-  "name": "project-31---redux-counter",
+  "name": "project-21---redux-counter",
   "version": "0.0.0",
   "description": "No description",
   "author": null,
@@ -9,9 +9,8 @@
     "expo": "^35.0.0",
     "react": "16.8.3",
     "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
-    "react-native-paper": "2.16.0",
-    "react-native-vector-icons": "^6.6.0",
+    "redux": "^4.0.0-0",
     "react-redux": "7.1.1",
-    "redux": "^4.0.0-0"
+    "react-native-paper": "2.16.0"
   }
 }

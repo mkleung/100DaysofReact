@@ -147,7 +147,10 @@ Installation
 https://www.youtube.com/watch?v=WnS7dcY5Hys&t=877s
 
 
-### Project 21 - Counter Redux Native/To Do
+### Project 21 - Counter Redux Native/To Do 
+
+<div data-snack-id="@mpakleung/project-21---redux-counter" data-snack-platform="android" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#fafafa;border:1px solid rgba(0,0,0,.08);border-radius:4px;height:505px;width:100%"></div>
+<script async src="https://snack.expo.io/embed.js"></script>
 
 https://www.youtube.com/watch?v=KcC8KZ_Ga2M
 
