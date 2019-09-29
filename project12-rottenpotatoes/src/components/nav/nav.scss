@@ -1,0 +1,12 @@
+.pure-menu-link {
+  &:hover {
+    background: #E5BE9E;
+  }
+ &:active, &:focus {
+  background: #E1B07E;
+ }
+}
+
+// .active {
+//   background: #86A397;
+// }
