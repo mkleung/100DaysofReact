@@ -1,0 +1,30 @@
+.buttons {
+  margin-bottom: 20px;
+
+  button {
+
+    background: #F0F465;
+    color: #533A71;
+    border: none;
+    padding: 10px 20px;
+    &:hover {
+      cursor: pointer;
+      background: darken(#F0F465, 20%);
+    }
+
+  }
+
+  .left {
+    border-radius: 20px 0 0 20px;
+  }
+
+  .right {
+    border-radius: 0 20px 20px 0;
+  }
+}
+
+.home-wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}

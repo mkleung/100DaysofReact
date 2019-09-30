@@ -1,0 +1,21 @@
+.header {
+  background: #9CEC5B;
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    li {
+      padding: 20px;
+      &:hover {
+        background: darken(#9CEC5B, 10%);
+      }
+      
+      a {
+        color: #533A71;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+    }
+  }
+}

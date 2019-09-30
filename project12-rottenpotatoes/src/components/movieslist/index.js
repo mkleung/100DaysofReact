@@ -24,7 +24,7 @@ const MoviesListPage = () => {
           {movies.map((movie, index) => {
             let oddRow = index % 2 === 0 ? "pure-table-odd" : "";
             return (
-              <tr className={oddRow}>
+              <tr className={oddRow} key={index}>
                 <td key={movie.id}>{movie.id}</td>
                 <td>{movie.name}</td>
                 <td>{movie.price}</td>

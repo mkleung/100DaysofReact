@@ -1,0 +1,125 @@
+.rating {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100px;
+  height: 40px;
+  align-items: center;
+  .rating-input {
+    display: none;
+  }
+
+  .rating-input:checked ~ .rating-star {
+    .star-wrapper {
+      .star {
+        fill: #E1B07E;
+      }
+    }
+  }
+
+    .rating-star {
+      &:hover {
+        cursor: pointer;
+        .star-wrapper {
+          .star {
+            fill: #E1B07E;
+          }
+        }
+      }
+      &:hover ~ .rating-star {
+        .star-wrapper {
+          .star {
+            fill: #E1B07E;
+          }
+        }
+      }
+
+      .star-wrapper {
+        .star {
+          fill: #CCC;
+        }
+    }
+    
+  }
+  
+}
+
+
+// .rating {
+//   // overflow: hidden;
+//   display: flex;
+//   flex-direction: row;
+//   // width: 50%;
+//   justify-content: flex-start;
+
+//   .rating-input {
+//     // float: right;
+//     // width: 16px;
+//     // height: 16px;
+//     // padding: 0;
+//     // margin: 0 0 0 -16px;
+//     opacity: 0;
+//   }
+
+//   // .rating-star {
+//   //   cursor: pointer;
+//   //   position: relative;
+//   //   display: block;
+//   //   width: 16px;
+//   //   height: 16px;
+//   //   background: red;
+//   // }
+
+
+//   .rating-star  {
+//     transform: scale(0.1);
+//     position: relative;
+//     display: block;
+//     color: #E1B07E;
+//     width: 0px;
+//     height: 0px;
+//     border-right: 100px solid transparent;
+//     border-bottom: 70px solid #E1B07E;
+//     border-left: 100px solid transparent;
+//     -moz-transform:    rotate(35deg) scale(.1);
+//     -webkit-transform: rotate(35deg) scale(.1);
+//     -ms-transform:     rotate(35deg) scale(.1);
+//     -o-transform:      rotate(35deg) scale(.1);
+//   }
+//   .rating-star:before {
+//     border-bottom: 80px solid #E1B07E;
+//     border-left: 30px solid transparent;
+//     border-right: 30px solid transparent;
+//     position: absolute;
+//     height: 0;
+//     width: 0;
+//     top: -45px;
+//     left: -65px;
+//     display: block;
+//     content: '';
+//     transform: rotate(-35deg);
+//   }
+//   .rating-star:after {
+//     position: absolute;
+//     display: block;
+//     color: #E1B07E;
+//     top: 3px;
+//     left: -105px;
+//     width: 0px;
+//     height: 0px;
+//     border-right: 100px solid transparent;
+//     border-bottom: 70px solid #E1B07E;
+//     border-left: 100px solid transparent;
+//     transform: rotate(-70deg);
+//     content: '';
+//   }
+
+
+
+//   .rating-star:hover {
+//     background-position: 0 0;
+//   }
+// }
+
+
+
+

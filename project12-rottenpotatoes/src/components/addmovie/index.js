@@ -1,23 +1,25 @@
 import React, { useState, useContext, useRef } from "react";
 import MoviesContext from "../context";
+import "./addmovie.scss";
+import Star from "./star";
 
 const Addmovie = () => {
-  // const [name, setName] = useState("");
+  const [ratings, setRatings] = useState("");
   // const [price, setPrice] = useState("");
   const [movies, setMovies] = useContext(MoviesContext);
 
   const nameRef = useRef();
   const priceRef = useRef();
   const yearRef = useRef();
-  const ratingRef = useRef();
+
   const lastMovieAdded = movies.slice(-1)[0];
   const onAddMovie = () => {
     nameRef.current.focus();
     let name = nameRef.current.value;
     let price = priceRef.current.value;
     let year = yearRef.current.value;
-    let rating = ratingRef.current.value;
-    if (name !== "" && price !== "" && year !== "" && rating !== "") {
+
+    if (name !== "" && price !== "" && year !== "") {
       setMovies(prevMovies => [
         ...prevMovies,
         {
@@ -25,14 +27,13 @@ const Addmovie = () => {
           name: name,
           price: price,
           year: year,
-          rating: rating
+          rating: ratings
         }
       ]);
 
       nameRef.current.value = "";
       priceRef.current.value = "";
       yearRef.current.value = "";
-      ratingRef.current.value = "";
     }
   };
 
@@ -46,17 +47,16 @@ const Addmovie = () => {
         case "price":
           yearRef.current.focus();
           break;
-        case "year":
-          ratingRef.current.focus();
-          break;
-        case "rating":
-          nameRef.current.focus();
-          break;
         default:
           nameRef.current.focus();
           break;
       }
     }
+  };
+
+  const change = e => {
+    const val = e.target.value;
+    setRatings(val);
   };
 
   return (
@@ -84,14 +84,66 @@ const Addmovie = () => {
           onKeyUp={e => onKeyUp(e, "year")}
         />
 
-        <input
-          className="pure-input-rounded"
-          ref={ratingRef}
-          placeholder="Add rating"
-          type="number"
-          onKeyUp={e => onKeyUp(e, "rating")}
-        />
+        {/* Star Ratings */}
+        <div className="rating">
+          <input
+            type="radio"
+            className="rating-input"
+            id="rating-input-1-5"
+            name="rating"
+            value="5"
+            onChange={e => change(e)}
+          />
+          <label htmlFor="rating-input-1-5" className="rating-star">
+            <Star />
+          </label>
 
+          <input
+            type="radio"
+            className="rating-input"
+            id="rating-input-1-4"
+            name="rating"
+            value="4"
+            onChange={e => change(e)}
+          />
+          <label htmlFor="rating-input-1-4" className="rating-star">
+            <Star />
+          </label>
+
+          <input
+            type="radio"
+            className="rating-input"
+            id="rating-input-1-3"
+            name="rating"
+            value="3"
+            onChange={e => change(e)}
+          />
+          <label htmlFor="rating-input-1-3" className="rating-star">
+            <Star />
+          </label>
+          <input
+            type="radio"
+            className="rating-input"
+            id="rating-input-1-2"
+            name="rating"
+            value="2"
+            onChange={e => change(e)}
+          />
+          <label htmlFor="rating-input-1-2" className="rating-star">
+            <Star />
+          </label>
+          <input
+            type="radio"
+            className="rating-input"
+            id="rating-input-1-1"
+            name="rating"
+            value="1"
+            onChange={e => change(e)}
+          />
+          <label htmlFor="rating-input-1-1" className="rating-star">
+            <Star />
+          </label>
+        </div>
         <button
           className="pure-button pure-button-primary green-button"
           onClick={onAddMovie}
