@@ -1,7 +1,10 @@
 
-100 Days of React Challenge (Build 30+ Practical Apps)
+100 Days of ReactJs Challenge (Build 30+ Practical Apps)
 ==============
-### Project 1 - Button Counter   [Demo](https://t2f9h.codesandbox.io/)
+
+### Project 1 - Button Counter   
+
+[Demo](https://t2f9h.codesandbox.io/)
 
 What I've learned:
 - create-react-app
@@ -13,7 +16,9 @@ What I've learned:
 [Source Tutorial](https://www.youtube.com/watch?v=Drp3ufpfD_Y)
 
 
-### Project 2 - Stopwatch  [Demo](https://6fr6p.codesandbox.io/)
+### Project 2 - Stopwatch  
+
+[Demo](https://6fr6p.codesandbox.io/)
 
 What I've learned:
 - Props
@@ -25,17 +30,23 @@ What I've learned:
 [Source Tutorial](https://www.youtube.com/watch?v=NAx76xx40jM&t=304s)
 
 
-### Project 3 - Monthly Calendar [Demo](https://193rm.codesandbox.io/)
+### Project 3 - Monthly Calendar 
+
+[Demo](https://193rm.codesandbox.io/)
 
 [Source Tutorial](https://www.youtube.com/watch?v=jjMmcQ-xV00&list=PL3jWqOE6WBddjqDLa56SeG2OA0qOB_Rco)
 
 
-### Project 4 - Calculator [Demo](https://mzztr.csb.app/)
+### Project 4 - Calculator 
+
+[Demo](https://mzztr.csb.app/)
 
 [Source Tutorial](https://www.youtube.com/watch?v=ZtU7Mhf9vN8&t=409s)
-  
 
-### Project 5 - To Do List [Demo](https://ri74q.csb.app/)
+
+### Project 5 - To Do List 
+
+[Demo](https://ri74q.csb.app/)
 
 What I've learned:
 - prevState
@@ -43,54 +54,75 @@ What I've learned:
 [Source Tutorial](https://www.youtube.com/watch?v=h5crrOsLbpk)
 
 
-### Project 6 - Quiz [Demo](https://bhm6v.csb.app/)
+### Project 6 - Quiz 
+
+[Demo](https://bhm6v.csb.app/)
 
 [Source Tutorial](https://www.youtube.com/watch?v=aq-fCtg_gG4)
 
 
-### Project 7 - Tic Tac Toe [Demo](https://jyy84.csb.app/)
+### Project 7 - Tic Tac Toe 
+
+[Demo](https://jyy84.csb.app/)
 
 [Source Tutorial](https://www.youtube.com/watch?v=wjTAhHSKuPg)
 
-### Project 8 - Map App [Demo](https://7s9cd.csb.app)
 
+### Project 8 - Snake Game 
+
+[Demo](https://qch74.csb.app/)
+
+[Tutorial Source](https://www.youtube.com/watch?v=-oOgsGP3t5o&t=4s)
+
+
+INTERMEDIATE REACT ROUTER & HOOKS
+=================================
+
+### Project 9 - Map App 
+
+[Demo](https://7s9cd.csb.app)
 
 What I've learned:
 - React-map-gl package (npm install --save react-map-gl)
 - Setting environmental variables (npm install --save-dev dotenv)
 - {process.env.API_URL}
-- React Hooks (useState, useEffect, keydown)
+- Some React Hooks (useState, useEffect, keydown)
 
 [Tutorial Source](https://www.youtube.com/watch?v=JJatzkPcmoI&t=29s)
 
 
-### Project 9 - Snake Game [Demo](https://qch74.csb.app/)
+### Project 10 - React Router Signup 
 
-[Tutorial Source](https://www.youtube.com/watch?v=-oOgsGP3t5o&t=4s)
-
-
-REACT ROUTER & HOOKS
-====================
-
-### Project 10 - React Router Signup [Demo](https://45g3m.csb.app/)
+[Demo](https://45g3m.csb.app/)
 
 What I've learned:
-- Private Routes
-- Refs
+- React Router
+- Hidden Routes
 
 React Router
 [Source Tutorial](https://www.youtube.com/watch?v=ojYbcon588A)
 
-Ref
-[Source Tutorial](https://www.youtube.com/watch?v=tiytyGEodl0&t=235s)
 
+### Project 11 - React Hooks Starwars API 
 
-### Project 11 - React Hooks Starwars API [Demo](https://u4xqw.csb.app/)
+[Demo](https://u4xqw.csb.app/)
+
+What I've learned:
+
+- Fetch
+- Router Animations
 
 [Source Tutorial](https://www.youtube.com/watch?v=-MlNBTSg_Ww)
 
 
-### Project 12 - React Hooks + Context API + Refs [Demo](https://7y5w2.csb.app/)
+### Project 12 - React Hooks + Context API + Refs 
+
+[Demo](https://7y5w2.csb.app/)
+
+What I've learned:
+
+- Context API
+- Refs
 
 Context API
 [Source Tutorial](https://www.youtube.com/watch?v=35lXWvCuM8o)
@@ -99,6 +131,15 @@ Refs
 [Source Tutorial](https://www.youtube.com/watch?v=tiytyGEodl0&t=235s)
 
 ### Project 13 - React Animations + Router Transitions Real Estate App + map
+
+[Demo](https://86ezy.csb.app/)
+
+What I've learned:
+
+- Route Animations
+- Recursive Paths
+- No match 404
+- Modal Gallery
 
 Animations
 [Source Tutorial](https://www.youtube.com/watch?v=BZRyIOrWfHU)
@@ -111,6 +152,12 @@ https://www.youtube.com/watch?v=4z4hxEHlsxc&t=132s
 
 
 ### Project 14 - Tetric React Hooks
+
+[Demo]()
+
+What I've learned:
+
+- Styled components
 
 https://www.youtube.com/watch?v=CUt3Mf9MYhc
 
@@ -174,6 +221,11 @@ https://www.youtube.com/watch?v=KcC8KZ_Ga2M
 https://www.youtube.com/watch?v=gdk7Io8BfUA&list=PLoN_ejT35AEi6ynsLwQJN1o116SFjWuEt&index=1
 
 
+### Project 23 - News App
+
+https://www.youtube.com/watch?v=0tOxrpPbx_c
+
+
 ### Project 23 - React Native Calculator
 
 https://www.youtube.com/watch?v=kye4zEwDxgU
@@ -228,7 +280,8 @@ https://www.youtube.com/watch?v=Dp75-DnGFrU
 https://www.youtube.com/watch?v=QZcNGfcn-oo
 
   
-### NOTES
+NOTES
+===============
 
 ***Class Components***
 

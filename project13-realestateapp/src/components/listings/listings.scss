@@ -17,14 +17,24 @@
   .left {
     border-radius: 20px 0 0 20px;
   }
+  .left:disabled {
+    background: lighten(#F0F465, 20%);
+    cursor: default;
+  }
 
   .right {
     border-radius: 0 20px 20px 0;
   }
+
+  .right:disabled {
+    background: lighten(#F0F465, 20%);
+    cursor: default;
+  }
 }
 
-.home-wrapper {
-  position: relative;
-  height: 100%;
-  width: 100%;
+
+.card-wrapper {
+
+  position:relative;
+  height: 500px;
 }
