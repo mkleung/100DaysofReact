@@ -22,6 +22,7 @@ const Card = ({ property }) => {
               {address}, {city}
             </h5>
             <div className="card-text">
+
               <ul>
                 <li>{bedrooms} bedrooms</li>
                 <li>{bathrooms} bathrooms</li>

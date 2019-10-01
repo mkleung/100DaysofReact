@@ -5,7 +5,7 @@ const Start = props => {
   return (
     <div className="page start">
       <div className="container">
-        <div className="row">
+        <div class="row">
           <div className="col-md-6 offset-md-3">
             <h1>Real Estate</h1>
             <p>
