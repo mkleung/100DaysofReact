@@ -1,6 +1,9 @@
 
-100 Days of ReactJs Challenge (Build 30+ Practical Apps)
-==============
+###100 Days of ReactJs Challenge (Build 30+ Practical Apps)
+
+
+REACT BEGINNER - CLASS COMPONENTS
+=================================
 
 ### Project 1 - Button Counter   
 
@@ -75,23 +78,7 @@ What I've learned:
 [Tutorial Source](https://www.youtube.com/watch?v=-oOgsGP3t5o&t=4s)
 
 
-INTERMEDIATE REACT ROUTER & HOOKS
-=================================
-
-### Project 9 - Map App 
-
-[Demo](https://7s9cd.csb.app)
-
-What I've learned:
-- React-map-gl package (npm install --save react-map-gl)
-- Setting environmental variables (npm install --save-dev dotenv)
-- {process.env.API_URL}
-- Some React Hooks (useState, useEffect, keydown)
-
-[Tutorial Source](https://www.youtube.com/watch?v=JJatzkPcmoI&t=29s)
-
-
-### Project 10 - React Router Signup 
+### Project 9 - React Router 
 
 [Demo](https://45g3m.csb.app/)
 
@@ -103,34 +90,7 @@ React Router
 [Source Tutorial](https://www.youtube.com/watch?v=ojYbcon588A)
 
 
-### Project 11 - React Hooks Starwars API 
-
-[Demo](https://u4xqw.csb.app/)
-
-What I've learned:
-
-- Fetch
-- Router Animations
-
-[Source Tutorial](https://www.youtube.com/watch?v=-MlNBTSg_Ww)
-
-
-### Project 12 - React Hooks + Context API + Refs 
-
-[Demo](https://7y5w2.csb.app/)
-
-What I've learned:
-
-- Context API
-- Refs
-
-Context API
-[Source Tutorial](https://www.youtube.com/watch?v=35lXWvCuM8o)
-
-Refs
-[Source Tutorial](https://www.youtube.com/watch?v=tiytyGEodl0&t=235s)
-
-### Project 13 - React Animations + Router Transitions Real Estate App + map
+### Project 10 - React Animations + Router Transitions Real Estate App + map
 
 [Demo](https://86ezy.csb.app/)
 
@@ -151,7 +111,52 @@ Google Maps location search
 https://www.youtube.com/watch?v=4z4hxEHlsxc&t=132s
 
 
-### Project 14 - Tetric React Hooks
+REACT INTERMEDIATE HOOKS
+=========================
+
+
+### Project 11 - React Hooks Starwars API 
+
+[Demo](https://u4xqw.csb.app/)
+
+What I've learned:
+
+- Fetch
+- Router Animations
+
+[Source Tutorial](https://www.youtube.com/watch?v=-MlNBTSg_Ww)
+
+
+
+### Project 12 - Map App 
+
+[Demo](https://7s9cd.csb.app)
+
+What I've learned:
+- React-map-gl package (npm install --save react-map-gl)
+- Setting environmental variables (npm install --save-dev dotenv)
+- {process.env.API_URL}
+- Some React Hooks (useState, useEffect, keydown)
+
+[Tutorial Source](https://www.youtube.com/watch?v=JJatzkPcmoI&t=29s)
+
+
+### Project 13 - React Hooks + Context API + Refs 
+
+[Demo](https://7y5w2.csb.app/)
+
+What I've learned:
+
+- Context API
+- Refs
+
+Context API
+[Source Tutorial](https://www.youtube.com/watch?v=35lXWvCuM8o)
+
+Refs
+[Source Tutorial](https://www.youtube.com/watch?v=tiytyGEodl0&t=235s)
+
+### Project 14 - Tetris React Hooks
 
 [Demo]()
 
@@ -162,9 +167,11 @@ What I've learned:
 https://www.youtube.com/watch?v=CUt3Mf9MYhc
 
 
-### Project 15 - React Hooks - FlappyBird
 
-[Source Tutorial](https://www.youtube.com/watch?v=pufKO5EG8nc)
+### Project 15 -  Memory Game React Hooks
+
+https://www.youtube.com/watch?v=MLNLT_-mBA0&t=2190s
+
 
 
 REDUX INTRO
@@ -226,56 +233,60 @@ https://www.youtube.com/watch?v=gdk7Io8BfUA&list=PLoN_ejT35AEi6ynsLwQJN1o116SFjW
 https://www.youtube.com/watch?v=0tOxrpPbx_c
 
 
-### Project 23 - React Native Calculator
+### Project 24 - React Native Calculator
 
 https://www.youtube.com/watch?v=kye4zEwDxgU
 
 
-### Project 24 - Flappy Bird React Native
+### Project 25 - Flappy Bird React Native
 
 [Source Tutorial](https://www.youtube.com/watch?v=qBGnfULn8W4)
 
 
-### Project 25 - React Native Stopwatch
+### Project 26 - React Native Stopwatch
 
 https://www.youtube.com/watch?v=gWegskGYCtA
 
 
 
-### Project 26 -Mood & Habit Tracker React Native
+### Project 27 -Mood & Habit Tracker React Native
 
 https://www.youtube.com/watch?v=YQj84z7VWk0&list=PLQocKVqyqZDQrUU7zUfFogbAO0ynvQK2j
 
   
-### Project 27 - Uber clone
+### Project 28 - Uber clone
 
 https://www.youtube.com/watch?v=CB_nXOOz_AY&list=PL6hffAJvRwYJTf6kuxrK4PJzjoxTqau9V
 
 
 
-ADVANCED REACT
+
+
+
+
+GraphQL
 ===============
 
-### Project 31 - Graph QL Blog
+### Project 41 - Graph QL Blog
 
 https://www.youtube.com/watch?v=L8XXzOR59Bs
 
 
-### Project 32 - RXJS
+### Project 42 - RXJS
 
 https://www.youtube.com/watch?v=PhggNGsSQyg
 
-### Project 33 - MobX
+### Project 43 - MobX
 
 https://www.youtube.com/watch?v=Dp75-DnGFrU
 
-### PRoject 34 - React Flux
+### PRoject 44 - React Flux
 
 
-### Project 35 - React Firebase
+### Project 45 - React Firebase
 
 
-### Project 36 - Redux RPG Game Zelda
+### Project 46 - Redux RPG Game Zelda
 
 https://www.youtube.com/watch?v=QZcNGfcn-oo
 
