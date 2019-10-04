@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import styled from "styled-components";
 import { StyledTetrisWrapper } from "./Styles";
 import { PanelStyle, CellStyle } from "./Styles";
 import { createGrids } from "./Helpers/Grids";
 import { shapes, random } from "./Helpers/Shapes";
-import { searchArray } from "./Helpers/Utils";
+import { searchArray, removeRowFromMergeArray } from "./Helpers/Utils";
 import { useInterval } from "./Helpers/useInterval";
 import Nav from "./Nav";
 
@@ -19,7 +19,7 @@ const Tetris = () => {
   const [droptime, setDroptime] = useState(200);
   const [gameOn, setGameOn] = useState(false);
   const [grids, setGrids] = useState(createGrids());
-  const [mergeArray, setMerge] = useState([]);
+  const [mergeArray, setMergeArray] = useState([]);
 
   const updatePlayerPos = ({ x, y }) => {
     setPlayer(prev => ({
@@ -75,13 +75,16 @@ const Tetris = () => {
 
   const drop = () => {
     if (player.pos.x === 18 || searchArray(mergeArray, player)) {
-      let merge = [];
+      // MERGE ITEM
+      let mergeItems = mergeArray;
       for (let i = 0; i < player.shapes.correct.length; i++) {
         let correct = player.shapes.correct[i];
-        merge.push([player.pos.x + correct[0], player.pos.y + correct[1]]);
+        mergeItems.push([player.pos.x + correct[0], player.pos.y + correct[1]]);
       }
-      setMerge(array => [...array, ...merge]);
+      mergeItems = removeRowFromMergeArray(mergeItems);
+      setMergeArray(mergeItems);
 
+      // BRING PLAYER TO TOP
       setPlayer(prev => ({
         ...prev,
         pos: {
@@ -133,12 +136,19 @@ const Tetris = () => {
         shapes: shapes[2]
       }));
     }
-
-    // setPlayer(prev => ({
-    //   ...prev,
-    //   shapes:
-    // }));
   };
+
+  // Component Did Update
+  const mounted = useRef();
+  useEffect(() => {
+    if (!mounted.current) {
+      mounted.current = true;
+    } else {
+      // const filtered = mergeArray;
+      // console.log(filtered.pop());
+    }
+  });
+
   return (
     <StyledTetrisWrapper
       role="button"
@@ -183,6 +193,7 @@ const Tetris = () => {
           <div className="col-md-6 pt-5">
             <div className="row pt-5">
               <div className="col-md-6">
+                <h1>Tetris</h1>
                 Game on: {gameOn.toString()}
                 <br />
                 {player.pos.x} , {player.pos.y}
