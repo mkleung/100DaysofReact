@@ -115,7 +115,9 @@ REACT INTERMEDIATE HOOKS
 =========================
 
 Theory
-https://www.youtube.com/watch?v=f16vYdEfhBs&list=PLCQ3cvOTrX6C4cxlK8c8gReSOXCQavYSz&index=15
+https://www.youtube.com/watch?v=cF2lQ_gZeA8&list=PLC3y8-rFHvwisvxhZ135pogtX7_Oe3Q3A
+
+
 
 ### Project 11 - React Hooks Starwars API 
 
@@ -169,11 +171,12 @@ Refs
 What I've learned:
 
 - Styled components
+- Custom Hooks
 
 https://www.youtube.com/watch?v=CUt3Mf9MYhc
 
 
-### Project 15 - Giphy useReducer
+### Project 15 - Flashcard App (UseReducer, Async, Custom hook)
 
 Advanced
 https://www.youtube.com/watch?v=YKmiLcXiMMo&t=1114s
@@ -182,9 +185,6 @@ https://www.youtube.com/watch?v=YKmiLcXiMMo&t=1114s
 useReducer
 https://www.youtube.com/watch?v=o-nCM1857AQ&t=732s
 
-
-Complex
-https://www.youtube.com/watch?v=uX7lxFrWUbA
 
 Async React hooks
 https://www.youtube.com/watch?v=HQq5Sod8AEk&t=515s
