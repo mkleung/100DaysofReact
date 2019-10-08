@@ -346,6 +346,43 @@ const People = props => {
 - cleanup
 
 
+*** React Hooks ***
+ 
+ 
+ const [emptyArray, setEmptyArray] = useState([]);
+ 
+ // ComponentDidMount
+ useEffect(() => {
+     setEmptyArray([1,2,3])
+ }, []}
+
+ // ComponentDidUpdate
+ useEffect(() => {
+
+ }, [variable])
+
+// UseReducer  (replacement for redux)
+
+  const [{ todos }, dispatch] = useReducer(reducer, {
+    todos: []
+  });
+
+
+function reducer(state, action) {
+  switch (action.type) {
+    case "addTodo":
+      return {
+        todos: [
+          ...state.todos,
+          { english: action.english, spanish: action.spanish }
+        ]
+      };
+    default:
+      return state;
+  }
+}
+
+
 *** Redux ***
 
 STORE
