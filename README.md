@@ -1,5 +1,5 @@
 
-###100 Days of ReactJs Challenge (Build 30+ Practical Apps)
+###100 Days of ReactJs Challenge (Build 30+ Practical Apps using hooks, redux, graphql)
 
 
 REACT BEGINNER - CLASS COMPONENTS
@@ -114,6 +114,10 @@ https://www.youtube.com/watch?v=4z4hxEHlsxc&t=132s
 REACT INTERMEDIATE HOOKS
 =========================
 
+Theory
+https://www.youtube.com/watch?v=cF2lQ_gZeA8&list=PLC3y8-rFHvwisvxhZ135pogtX7_Oe3Q3A
+
+
 
 ### Project 11 - React Hooks Starwars API 
 
@@ -149,12 +153,16 @@ What I've learned:
 
 - Context API
 - Refs
+- UseReducer
+- Async
+
 
 Context API
 [Source Tutorial](https://www.youtube.com/watch?v=35lXWvCuM8o)
 
 Refs
 [Source Tutorial](https://www.youtube.com/watch?v=tiytyGEodl0&t=235s)
+
 
 ### Project 14 - Tetris React Hooks
 
@@ -163,132 +171,92 @@ Refs
 What I've learned:
 
 - Styled components
+- Custom Hooks
 
 https://www.youtube.com/watch?v=CUt3Mf9MYhc
 
 
+### Project 15 - Flashcard App (UseReducer, Async, Custom hook)
 
-### Project 15 -  Memory Game React Hooks
+[Demo](https://hdv0i.csb.app/)
 
-https://www.youtube.com/watch?v=MLNLT_-mBA0&t=2190s
+Advanced
+https://www.youtube.com/watch?v=YKmiLcXiMMo&t=1114s
 
+
+useReducer
+https://www.youtube.com/watch?v=o-nCM1857AQ&t=732s
+
+
+Async React hooks
+https://www.youtube.com/watch?v=HQq5Sod8AEk&t=515s
+
+
+### Project 16 - Memory Game
+
+https://www.youtube.com/watch?v=MLNLT_-mBA0
+
+
+### Project 17 - React hook Auth Firebase
+
+https://www.youtube.com/watch?v=K_wZCW6wXIo
+
+### Project 18 - Custom React hook
+
+https://www.youtube.com/watch?v=VbUmKm6gjtc
+
+https://www.youtube.com/watch?v=SXIfnNvYrZE
+
+https://www.youtube.com/watch?v=tmlzjnZy6ZQ
+
+
+### Project 19 - UseReducer, Dark Mode
+
+DarkMode
+https://www.youtube.com/watch?v=Kn1lyP8Rkog
+
+UseContext
+https://www.youtube.com/watch?v=cjBm0HnYcqw
+
+
+### Project 20
 
 
 REDUX INTRO
 ===========
 
-### Project 16 - Redux for beginners
+### Project 21 - Redux for beginners
 
 https://www.youtube.com/watch?v=CVpUuw9XSjY&t=1928s
 
 
-### Project 17 - Shopping Cart Redux
+### Project 22 - Shopping Cart Redux
 
 https://www.youtube.com/watch?v=T_HtlP80UYc
 
 
-### Project 18  - Redux Contact List (Thunk)
+### Project 23  - Redux Contact List (Thunk)
 
 https://www.youtube.com/watch?v=EfzVf4eoJ-c
 
 
-### Project 19 - Redux more Theory
+### Project 24 - Redux more Theory
 
 https://www.youtube.com/watch?v=OSSpVLpuVWA
 
 
-### Project 20 - Reduxagram
+### Project 25 - Reduxagram
 
 https://www.youtube.com/watch?v=hmwBow1PUuo&list=PLu8EoSxDXHP5uyzEWxdlr9WQTJJIzr6jy
 
 
-REACT NATIVE
-============
+GRAPHQL
+===========
 
-### React Native Installation 
- 
-```npm install expo-cli --global```
-```expo start```
-
-https://expo.io/learn
-OR
-Installation
-https://www.youtube.com/watch?v=WnS7dcY5Hys&t=877s
-
-
-### Project 21 - Counter Redux Native/To Do 
-
-[Demo](https://appetize.io/embed/8bnmakzrptf1hv9dq7v7bnteem?autoplay=false&debug=true&device=iphone6s&deviceColor=black&embed=true&orientation=portrait&screenOnly=false&xDocMsg=true&xdocMsg=true&params=%7B%22EXKernelLaunchUrlDefaultsKey%22:%22exp:%2F%2Fexpo.io%2F@mpakleung%2Fproject-21---redux-counter%2BKNWZc6aZP%22,%22EXKernelDisableNuxDefaultsKey%22:true%7D&scale=75&osVersion=11.4)
-
-https://www.youtube.com/watch?v=KcC8KZ_Ga2M
-
-
-### Project 22 Weather App
-
-https://www.youtube.com/watch?v=gdk7Io8BfUA&list=PLoN_ejT35AEi6ynsLwQJN1o116SFjWuEt&index=1
-
-
-### Project 23 - News App
-
-https://www.youtube.com/watch?v=0tOxrpPbx_c
-
-
-### Project 24 - React Native Calculator
-
-https://www.youtube.com/watch?v=kye4zEwDxgU
-
-
-### Project 25 - Flappy Bird React Native
-
-[Source Tutorial](https://www.youtube.com/watch?v=qBGnfULn8W4)
-
-
-### Project 26 - React Native Stopwatch
-
-https://www.youtube.com/watch?v=gWegskGYCtA
-
-
-
-### Project 27 -Mood & Habit Tracker React Native
-
-https://www.youtube.com/watch?v=YQj84z7VWk0&list=PLQocKVqyqZDQrUU7zUfFogbAO0ynvQK2j
-
-  
-### Project 28 - Uber clone
-
-https://www.youtube.com/watch?v=CB_nXOOz_AY&list=PL6hffAJvRwYJTf6kuxrK4PJzjoxTqau9V
-
-
-
-
-
-
-
-GraphQL
-===============
-
-### Project 41 - Graph QL Blog
+### Project 31 - Graph QL Blog
 
 https://www.youtube.com/watch?v=L8XXzOR59Bs
 
-
-### Project 42 - RXJS
-
-https://www.youtube.com/watch?v=PhggNGsSQyg
-
-### Project 43 - MobX
-
-https://www.youtube.com/watch?v=Dp75-DnGFrU
-
-### PRoject 44 - React Flux
-
-
-### Project 45 - React Firebase
-
-
-### Project 46 - Redux RPG Game Zelda
-
-https://www.youtube.com/watch?v=QZcNGfcn-oo
 
   
 NOTES
