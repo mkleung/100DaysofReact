@@ -1,29 +1,95 @@
-import React, { useState } from 'react';
-import Card  from './components/card'
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import Header from './components/Header';
+import './App.scss';
 
-function App() {
+const data = [
+	{ id: 0, img: './img/dog1.jpg' },
+	{ id: 1, img: './img/dog2.jpg' },
+	{ id: 2, img: './img/dog3.jpg' },
+	{ id: 3, img: './img/dog4.jpg' },
+	{ id: 4, img: './img/dog1.jpg' },
+	{ id: 5, img: './img/dog2.jpg' },
+	{ id: 6, img: './img/dog3.jpg' },
+	{ id: 7, img: './img/dog4.jpg' }
+];
 
-  const [flipped, setFlipped] = useState([])
-  
+function App(){
+	const [ cards, setCards ] = useState([]);
+	const [ first, setFirst ] = useState();
+  const [ second, setSecond ] = useState();
+  const [count, setCount] = useState(1);
+
+	// Component did mount
+	useEffect(() => {
+		setCards(data);
+	}, []);
+
+
+
   const handleClick = (id) => {
-    setFlipped([...flipped, id])
+
+    setCount(count => count+1);
+
+    if (count % 2 === 0) {      
+      setSecond(id)
+    }
+
+    if (Math.abs(count % 2) == 1) {
+      setSecond()
+      setFirst(id)
+    }
+
+
+  
   }
 
-  return (
-    <div className="App">
-        <h2>Can you remember where the card are?</h2>
-        <Card 
-          id={1} 
-          width={100} 
-          height={100} 
-          back={`/img/back.png`} 
-          front={`/img/dog1.JPG`}
-          flipped={flipped.includes(1)}
-          handleClick={() => handleClick(1)}>
-        </Card>
-    </div>
-  );
+    useEffect(() => {
+
+      let f = cards.find(card => card.id === first )
+      let s = cards.find(card => card.id === second)
+  
+      if (f !== undefined && s !== undefined) {
+        if (f.img === s.img) {
+          console.log("win")
+
+          setCards(cards.filter(card => card.img !== f.img ))
+        }
+      }
+   
+	});
+
+  
+	return (
+		<div className='App '>
+			<Header />
+      <p>Count: {count}</p>
+      <p>first: {first} / Second: {second}</p>
+     
+			<div className='board'>
+				<div className='container'>
+					<div className='row'>
+						{cards.map((card) => (
+							<div key={card.id} className='col-3'>
+								<div className='gameCard' onClick={()=>handleClick(card.id)}>
+									<div className='flip-card'>
+										<div className={card.id === first || card.id === second ? 'flip-card-inner active': 'flip-card-inner'}>
+											<div className='flip-card-front'>
+												<h1>{card.id}</h1>
+											</div>
+											<div
+                      className='flip-card-back cardImage'
+												style={{ backgroundImage: 'url(' + card.img + ')' }}
+											/>
+										</div>
+									</div>
+								</div>
+							</div>
+						))}
+					</div>
+				</div>
+			</div>
+		</div>
+	);
 }
 
 export default App;
