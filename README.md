@@ -114,7 +114,8 @@ https://www.youtube.com/watch?v=4z4hxEHlsxc&t=132s
 REACT INTERMEDIATE HOOKS
 =========================
 
-Theory
+Watch This first:
+
 https://www.youtube.com/watch?v=cF2lQ_gZeA8&list=PLC3y8-rFHvwisvxhZ135pogtX7_Oe3Q3A
 
 
@@ -197,9 +198,14 @@ https://www.youtube.com/watch?v=HQq5Sod8AEk&t=515s
 https://www.youtube.com/watch?v=MLNLT_-mBA0
 
 
-### Project 17 - React hook Auth Firebase
+### Project 17 - Reading List
 
-https://www.youtube.com/watch?v=K_wZCW6wXIo
+- Reducers
+- Actions
+- State
+
+https://www.youtube.com/watch?v=v1s_rbZbqQI
+
 
 ### Project 18 - Custom React hook
 
@@ -219,11 +225,19 @@ UseContext
 https://www.youtube.com/watch?v=cjBm0HnYcqw
 
 
-### Project 20
+### Project 20 - Hacker News
+
+https://www.youtube.com/watch?v=LN6Dol_fX0w
 
 
 REDUX INTRO
 ===========
+
+Watch This First:
+
+https://www.youtube.com/watch?v=9boMnm5X9ak&list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK
+
+
 
 ### Project 21 - Redux for beginners
 
@@ -250,10 +264,24 @@ https://www.youtube.com/watch?v=OSSpVLpuVWA
 https://www.youtube.com/watch?v=hmwBow1PUuo&list=PLu8EoSxDXHP5uyzEWxdlr9WQTJJIzr6jy
 
 
+
+FIREBASE
+========
+
+### Project 31 - Clock I Firebase
+
+https://www.youtube.com/watch?v=rSgbYCdc4G0
+
+
+### Project 32 - Evernote Clone
+
+https://www.youtube.com/watch?v=I250xdtUvy8
+
+
 GRAPHQL
 ===========
 
-### Project 31 - Graph QL Blog
+### Project 41 - Graph QL Blog
 
 https://www.youtube.com/watch?v=L8XXzOR59Bs
 
