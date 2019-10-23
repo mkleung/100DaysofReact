@@ -198,7 +198,11 @@ https://www.youtube.com/watch?v=HQq5Sod8AEk&t=515s
 https://www.youtube.com/watch?v=MLNLT_-mBA0
 
 
-### Project 17 - Reading List
+### Project 17 - React Hook Custom Note Taking
+
+
+
+### Project 18 - Reading List
 
 - Reducers
 - Actions
@@ -206,14 +210,6 @@ https://www.youtube.com/watch?v=MLNLT_-mBA0
 
 https://www.youtube.com/watch?v=v1s_rbZbqQI
 
-
-### Project 18 - Custom React hook
-
-https://www.youtube.com/watch?v=VbUmKm6gjtc
-
-https://www.youtube.com/watch?v=SXIfnNvYrZE
-
-https://www.youtube.com/watch?v=tmlzjnZy6ZQ
 
 
 ### Project 19 - UseReducer, Dark Mode
