@@ -208,22 +208,25 @@ https://www.youtube.com/watch?v=MLNLT_-mBA0
 - Actions
 - State
 
-https://www.youtube.com/watch?v=v1s_rbZbqQI
+https://www.youtube.com/watch?v=6RhOzQciVwI&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI
 
 
+### Project 19 -  Map Infinite scroll
 
-### Project 19 - UseReducer, Dark Mode
+Maps
+https://www.youtube.com/watch?v=uJYqQdnw8LE
+
+Infinite Scroll
+https://www.youtube.com/watch?v=u06qAON66iw
+https://www.youtube.com/watch?v=GVDiw3lAyp0
+
+### Project 20 - Jurassic Game 
 
 DarkMode
 https://www.youtube.com/watch?v=Kn1lyP8Rkog
 
-UseContext
-https://www.youtube.com/watch?v=cjBm0HnYcqw
+Create the chrome offline game using hooks on your own
 
-
-### Project 20 - Hacker News
-
-https://www.youtube.com/watch?v=LN6Dol_fX0w
 
 
 REDUX INTRO
