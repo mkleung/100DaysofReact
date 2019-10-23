@@ -198,7 +198,7 @@ https://www.youtube.com/watch?v=HQq5Sod8AEk&t=515s
 https://www.youtube.com/watch?v=MLNLT_-mBA0
 
 
-### Project 17 - React Hook Custom Note Taking
+### Project 17 - TEch news
 
 
 
@@ -276,6 +276,10 @@ https://www.youtube.com/watch?v=rSgbYCdc4G0
 
 https://www.youtube.com/watch?v=I250xdtUvy8
 
+
+### Project 33 - Chat App
+
+https://www.youtube.com/watch?v=ordsApAKdVY&list=PL2pKsGhl_rg8ojPTdkoroDgWLg0NS4qhl&index=2&t=0s
 
 GRAPHQL
 ===========
