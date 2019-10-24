@@ -1,20 +1,31 @@
-import React, { useState, useEffect, useReducer } from 'react';
-import notesReducer from '../reducers/notes'
+import React, { useState, useEffect, useReducer, useContext } from 'react';
+import notesReducer from '../reducers/notes-reducer'
 import NoteList from './NoteList'
 import AddNoteForm from './AddNoteForm'
 import NotesContext from '../context/notes-context'
 
 
 const NoteApp = () => {
-	const [ notes, dispatch ] = useReducer(notesReducer, []);
 
+	const [ notes, dispatch ] = useReducer(notesReducer, []);
+    const [ initTitle ] = useState('test');
+    const [ initBody ] = useState('test');
 
 	// constructor
 	useEffect(() => {
 		const notes = JSON.parse(localStorage.getItem('notes'));
+	
 		if (notes) {
 			// setNotes(notesData)
 			dispatch({ type: 'POPULATE_NOTES', notes });
+		}
+		else {
+			console.log("init")
+			dispatch({
+				type  : 'ADD_NOTE',
+				title: 'test',
+				body: 'test'
+			});
 		}
 	}, []);
 

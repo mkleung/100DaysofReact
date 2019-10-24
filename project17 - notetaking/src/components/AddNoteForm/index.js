@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import NotesContext from '../context/notes-context'
+import NotesContext from '../../context/notes-context'
 
 
 const AddNoteForm = () => {

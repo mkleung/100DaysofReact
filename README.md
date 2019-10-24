@@ -198,17 +198,12 @@ https://www.youtube.com/watch?v=HQq5Sod8AEk&t=515s
 https://www.youtube.com/watch?v=MLNLT_-mBA0
 
 
-### Project 17 - TEch news
+### Project 17 - Note taking App
 
+https://www.youtube.com/watch?v=HERhqPlPyuY
 
+### Project 18 
 
-### Project 18 - Reading List
-
-- Reducers
-- Actions
-- State
-
-https://www.youtube.com/watch?v=6RhOzQciVwI&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI
 
 
 ### Project 19 -  Map Infinite scroll
