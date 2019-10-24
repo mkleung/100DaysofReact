@@ -200,9 +200,19 @@ https://www.youtube.com/watch?v=MLNLT_-mBA0
 
 ### Project 17 - Note taking App
 
+- UseReducer
+- Context API
+- LocalStorage
+
 https://www.youtube.com/watch?v=HERhqPlPyuY
 
-### Project 18 
+### Project 18 - Firebase + authentication tutorial
+
+Authentication
+https://www.youtube.com/watch?v=K_wZCW6wXIo
+
+Timer
+https://www.youtube.com/watch?v=rSgbYCdc4G0&t=783s
 
 
 
@@ -215,12 +225,13 @@ Infinite Scroll
 https://www.youtube.com/watch?v=u06qAON66iw
 https://www.youtube.com/watch?v=GVDiw3lAyp0
 
-### Project 20 - Jurassic Game 
+
+### Project 20 - Packman Game 
 
 DarkMode
 https://www.youtube.com/watch?v=Kn1lyP8Rkog
 
-Create the chrome offline game using hooks on your own
+Create the packman game using hooks on your own
 
 
 
@@ -275,6 +286,13 @@ https://www.youtube.com/watch?v=I250xdtUvy8
 ### Project 33 - Chat App
 
 https://www.youtube.com/watch?v=ordsApAKdVY&list=PL2pKsGhl_rg8ojPTdkoroDgWLg0NS4qhl&index=2&t=0s
+
+
+### Project 34 - Blog
+
+https://www.youtube.com/watch?v=b0268Faz7NY&list=PLolX_BtuGc9RI9RDmsy-eAaiyRq2aM6HS
+
+
 
 GRAPHQL
 ===========
