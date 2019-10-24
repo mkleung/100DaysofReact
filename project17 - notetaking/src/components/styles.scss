@@ -1,0 +1,11 @@
+.dark {
+    background: #2c3e50;
+    transition: .5s ease;
+
+    h1, h2, h3, p {
+        color: #FFF;
+    }
+}
+.light {
+    transition: .5s ease;
+}

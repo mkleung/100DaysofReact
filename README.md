@@ -198,13 +198,18 @@ https://www.youtube.com/watch?v=HQq5Sod8AEk&t=515s
 https://www.youtube.com/watch?v=MLNLT_-mBA0
 
 
-### Project 17 - Note taking App
+### Project 17 - Note taking App Dark Mode
 
 - UseReducer
 - Context API
 - LocalStorage
 
 https://www.youtube.com/watch?v=HERhqPlPyuY
+
+
+DarkMode
+https://www.youtube.com/watch?v=Kn1lyP8Rkog
+
 
 ### Project 18 - Firebase + authentication tutorial
 
@@ -226,10 +231,7 @@ https://www.youtube.com/watch?v=u06qAON66iw
 https://www.youtube.com/watch?v=GVDiw3lAyp0
 
 
-### Project 20 - Packman Game 
-
-DarkMode
-https://www.youtube.com/watch?v=Kn1lyP8Rkog
+### Project 20 - Pacman Game 
 
 Create the packman game using hooks on your own
 

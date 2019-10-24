@@ -3,13 +3,26 @@ import notesReducer from '../reducers/notes-reducer'
 import NoteList from './NoteList'
 import AddNoteForm from './AddNoteForm'
 import NotesContext from '../context/notes-context'
-
+import "./styles.scss"
 
 const NoteApp = () => {
 
 	const [ notes, dispatch ] = useReducer(notesReducer, []);
-    const [ initTitle ] = useState('test');
-    const [ initBody ] = useState('test');
+
+	const [theme, setTheme] = useState('light')
+
+	const changeDark = () => {
+		setTheme("dark")
+	}
+
+	const changeLight = () => {
+		setTheme("light")
+	}
+
+	useEffect(() => {
+		document.body.classList.remove('dark', 'light')
+		document.body.classList.add(theme)
+	}, [theme]);
 
 	// constructor
 	useEffect(() => {
@@ -20,13 +33,14 @@ const NoteApp = () => {
 			dispatch({ type: 'POPULATE_NOTES', notes });
 		}
 		else {
-			console.log("init")
 			dispatch({
 				type  : 'ADD_NOTE',
 				title: 'test',
 				body: 'test'
 			});
 		}
+
+		document.body.classList.add(theme)
 	}, []);
 
 	// component did update
@@ -38,10 +52,12 @@ const NoteApp = () => {
 	);
 
 	return (
-		<NotesContext.Provider value={{notes, dispatch}}>
+		<NotesContext.Provider value={{notes, theme, dispatch}}>
 			<h1>Notes</h1>
 			<NoteList />
 			<AddNoteForm />
+			<button onClick={()=>{setTheme("dark")}}>Dark</button>
+			<button onClick={()=>{setTheme("light")}}>light</button>
 		</NotesContext.Provider>
 	);
 };
