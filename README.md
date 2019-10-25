@@ -211,14 +211,9 @@ DarkMode
 https://www.youtube.com/watch?v=Kn1lyP8Rkog
 
 
-### Project 18 - Firebase + authentication tutorial
+### Project 18 - React Lazy , Suspense
 
-Authentication
-https://www.youtube.com/watch?v=K_wZCW6wXIo
-
-Timer
-https://www.youtube.com/watch?v=rSgbYCdc4G0&t=783s
-
+https://www.youtube.com/watch?v=SGSAPfjOHBM
 
 
 ### Project 19 -  Map Infinite scroll
@@ -274,6 +269,11 @@ https://www.youtube.com/watch?v=hmwBow1PUuo&list=PLu8EoSxDXHP5uyzEWxdlr9WQTJJIzr
 
 FIREBASE
 ========
+
+Timer
+https://www.youtube.com/watch?v=rSgbYCdc4G0&t=783s
+
+
 
 ### Project 31 - Clock I Firebase
 
