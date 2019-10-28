@@ -270,15 +270,12 @@ https://www.youtube.com/watch?v=hmwBow1PUuo&list=PLu8EoSxDXHP5uyzEWxdlr9WQTJJIzr
 FIREBASE
 ========
 
-Timer
-https://www.youtube.com/watch?v=rSgbYCdc4G0&t=783s
-
-
-
 ### Project 31 - Clock I Firebase
 
+stopwatch
 https://www.youtube.com/watch?v=rSgbYCdc4G0
 
+login
 https://www.youtube.com/watch?v=unr4s3jd9qA
 
 
