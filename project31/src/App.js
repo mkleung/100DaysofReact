@@ -1,43 +1,37 @@
-import React from 'react';
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import './App.css';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { AuthProvider } from "./controller/AuthContext";
+import PrivateRoute from "./components/PrivateRoute";
 
-import { AuthProvider } from './AuthContext'
-import PrivateRoute from './PrivateRoute'
+import Dashboard from "./components/Dashboard";
+import Login from "./components/Login";
+import Register from "./components/Register";
+import Home from "./components/Home";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
-import Login from './components/Login'
-import Register from './components/Register'
-import Home from './components/Home'
 //test
 // firebase.firestore().collection("times").add({
 //   title: 'test',
 //   time_seconds: 45
 // })
 
-
-
-
-function App(){
-	return (
+function App() {
+  return (
     <AuthProvider>
-		<Router>
-			<div>
-				<nav>
-					<ul>
-						<li><Link to='/'>Home</Link></li>
-						<li><Link to='/login'>Login</Link></li>
-						<li><Link to='/register'>register</Link></li>
-					</ul>
-				</nav>
-				<PrivateRoute exact path='/' component={Home} />
-				<Route exact path='/login' component={Login} />
-				<Route exact path='/register' component={Register} />
-			</div>
-		</Router>
+      <Router>
+        <div>
+          <Header />
+          <Route exact path="/" component={Home} />
+          <PrivateRoute exact path="/dashboard" component={Dashboard} />
+          <Route exact path="/login" component={Login} />
+          <Route exact path="/register" component={Register} />
+          <Footer />
+        </div>
+      </Router>
     </AuthProvider>
-
-	);
+  );
 }
 
 export default App;

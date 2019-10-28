@@ -1,7 +1,7 @@
 import React, { useCallback, useContext } from "react";
 import { withRouter, Redirect } from "react-router";
-import firebase from "../firebase";
-import { AuthContext } from "../AuthContext.js";
+import firebase from "../model/firebase";
+import { AuthContext } from "../controller/AuthContext";
 
 const Login = ({ history }) => {
   const handleLogin = useCallback(
@@ -27,7 +27,7 @@ const Login = ({ history }) => {
   }
 
   return (
-    <div>
+    <div className="hero flex items-center z-0">
       <h1>Log in</h1>
       <form onSubmit={handleLogin}>
         <label>
