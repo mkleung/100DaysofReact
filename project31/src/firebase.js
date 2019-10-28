@@ -1,9 +1,11 @@
 import firebase from 'firebase/app'
 import 'firebase/firestore'
 
+const API_KEY = process.env.REACT_APP_FIREBASE_API_KEY;
+
   // Your web app's Firebase configuration
   var firebaseConfig = {
-    apiKey: "AIzaSyAW93O0kr0CcTimNzKaMhKk7LStnyWnFVM",
+    apiKey: API_KEY,
     authDomain: "practiceclub-2e9c7.firebaseapp.com",
     databaseURL: "https://practiceclub-2e9c7.firebaseio.com",
     projectId: "practiceclub-2e9c7",
