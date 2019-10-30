@@ -7,7 +7,7 @@ export const AuthProvider = props => {
   const [currentUser, setCurrentUser] = useState(null);
 
   useEffect(() => {
-    // firebase.auth().onAuthStateChanged(setCurrentUser);
+    firebase.auth().onAuthStateChanged(setCurrentUser);
   }, []);
 
   return (

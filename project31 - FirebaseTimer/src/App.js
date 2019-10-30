@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-
 import { AuthProvider } from "./controller/AuthContext";
 import PrivateRoute from "./components/PrivateRoute";
 
@@ -17,13 +16,16 @@ import Footer from "./components/Footer";
 //   time_seconds: 45
 // })
 
+// https://scotch.io/tutorials/build-a-beautiful-landing-page-with-tailwind-css
+
 function App() {
   return (
     <AuthProvider>
       <Router>
         <div>
           <Header />
-          <Route exact path="/" component={Home} />
+          {/* <Route exact path="/" component={Home} /> */}
+          <Route exact path="/" component={Dashboard} />
           <PrivateRoute exact path="/dashboard" component={Dashboard} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/register" component={Register} />

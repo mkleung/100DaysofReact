@@ -3,39 +3,54 @@ import { Link } from "react-router-dom";
 
 const App = () => {
   return (
-    <footer class="bg-gray-100">
-      <div class="container mx-auto px-6 pt-10 pb-6">
-        <div class="flex flex-wrap">
-          <div class="w-full md:w-1/4 text-center md:text-left">
-            <h5 class="uppercase mb-6 font-bold">Links</h5>
-            <ul class="mb-4">
-              <li class="mt-2">
-                <Link class="hover:underline text-gray-600 hover:text-orange-500">
+    <footer className="bg-gray-100">
+      <div className="container mx-auto px-6 pt-10 pb-6">
+        <div className="flex flex-wrap">
+          <div className="w-full md:w-1/4 text-center md:text-left">
+            <h5 className="uppercase mb-6 font-bold">Links</h5>
+            <ul className="mb-4">
+              <li className="mt-2">
+                <Link
+                  className="hover:underline text-gray-600 hover:text-orange-500"
+                  to=""
+                >
                   FAQ
                 </Link>
               </li>
-              <li class="mt-2">
-                <Link class="hover:underline text-gray-600 hover:text-orange-500">
+              <li className="mt-2">
+                <Link
+                  className="hover:underline text-gray-600 hover:text-orange-500"
+                  to=""
+                >
                   Help
                 </Link>
               </li>
-              <li class="mt-2">
-                <Link class="hover:underline text-gray-600 hover:text-orange-500">
+              <li className="mt-2">
+                <Link
+                  className="hover:underline text-gray-600 hover:text-orange-500"
+                  to=""
+                >
                   Support
                 </Link>
               </li>
             </ul>
           </div>
-          <div class="w-full md:w-1/4 text-center md:text-left">
-            <h5 class="uppercase mb-6 font-bold">Legal</h5>
-            <ul class="mb-4">
-              <li class="mt-2">
-                <Link class="hover:underline text-gray-600 hover:text-orange-500">
+          <div className="w-full md:w-1/4 text-center md:text-left">
+            <h5 className="uppercase mb-6 font-bold">Legal</h5>
+            <ul className="mb-4">
+              <li className="mt-2">
+                <Link
+                  className="hover:underline text-gray-600 hover:text-orange-500"
+                  to=""
+                >
                   Terms
                 </Link>
               </li>
-              <li class="mt-2">
-                <Link class="hover:underline text-gray-600 hover:text-orange-500">
+              <li className="mt-2">
+                <Link
+                  className="hover:underline text-gray-600 hover:text-orange-500"
+                  to=""
+                >
                   Privacy
                 </Link>
               </li>
